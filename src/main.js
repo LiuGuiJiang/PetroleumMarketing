@@ -13,7 +13,7 @@ import 'element-ui/lib/theme-chalk/display.css';
 
 /**3.0 Echarts画图*/
 import echarts from 'echarts'
-import 'echarts/theme/mazarine.js'
+// import 'echarts/theme/mazarine.js'
 
 /**4.0 引用阿里小图标,注意：暂时没有图标，引用会报错 */
 import './assets/iconfont/iconfont.css'  

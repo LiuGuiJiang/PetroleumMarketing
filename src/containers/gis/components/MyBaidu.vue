@@ -17,22 +17,21 @@
             <!-- 地图类型控件 -->
             <!-- 点 -->
             <div v-for="(item,index) in points" :key='index' >   
-                <bm-marker v-if="!item.isShow" :position="{lng: item.x, lat: item.y}"  @click="getId(index)" :icon="{url: item.imgUrl, size: {width: 26, height: 32}, opts: {imageSize: {width:26, height:32}, imageOffset: {width:0, height:0}, anchor:{width: 13, height: 16}}}">
+                <bm-marker v-if="!item.isShow" :position="{lng: item.lng, lat: item.lat}"  @click="getId(index)" :icon="{url: item.imgUrl, size: {width: 26, height: 32}, opts: {imageSize: {width:26, height:32}, imageOffset: {width:0, height:0}, anchor:{width: 13, height: 16}}}">
                 </bm-marker> 
             </div>
             
             <!-- 搜索框 -->
-            <!-- <bm-control :offset="{width: '10px', height: '10px'}">
+            <bm-control :offset="{width: '10px', height: '10px'}">
                 <bm-auto-complete v-model="keyword" :sugStyle="{zIndex: 1}">
-                <search-field placeholder="请输入地名关键字"></search-field> 
-                这里指代一个自定义搜索框组件
+                <search-field placeholder="请输入地名关键字"></search-field> <!-- 这里指代一个自定义搜索框组件 -->
                 </bm-auto-complete>
             </bm-control>
-            <bm-local-search :keyword="keyword" :auto-viewport="true" ></bm-local-search> -->
+            <bm-local-search :keyword="keyword" :auto-viewport="true" ></bm-local-search>
             
             <!-- 窗口视图 -->
-            <bm-info-window :position="{lng: bmInfo.x, lat: bmInfo.y}" :show="show" @close="infoWindowClose" @open="infoWindowOpen" style="width:350px;">
-                <div v-show="bmInfo.type === 1">
+            <bm-info-window :position="{lng: bmInfo.lng, lat: bmInfo.lat}" :show="show" @close="infoWindowClose" @open="infoWindowOpen" style="width:350px;">
+                <div v-show="bmInfo.type !== 0">
                     <h4 style="text-align:left;padding-bottom:5px;">
                         <span>{{bmInfo.name}}</span>
                     </h4>
@@ -40,7 +39,7 @@
                     <ul>
                         <li style="padding-top:5px;font-size:14px;">
                             <span style="font-weight:600;font-size:14px;padding-top:3px;">隶属：</span>
-                            <span>{{bmInfo.company}}</span>
+                            <span>{{bmInfo.liShu}}</span>
                         </li>
                         <li style="padding-top:5px;font-size:14px;">
                             <span style="font-weight:600;font-size:14px;padding-top:3px;">详情：</span>
@@ -48,15 +47,28 @@
                         </li>
                     </ul>
                 </div>
-                <div v-show="bmInfo.type === 2">
+                <div v-show="bmInfo.type === 0">
                     <h4 style="text-align:left;padding-bottom:5px;">
-                        <span>{{bmInfo.name}}</span>
+                        <span v-if="bmInfo.project">{{bmInfo.project}}</span>
+                        <span v-else>***</span>
                     </h4>
                     <hr>
                     <ul>
                         <li style="padding-top:5px;font-size:14px;">
-                            <span style="font-weight:600;font-size:14px;padding-top:3px;">隶属：</span>
-                            <span>{{bmInfo.brand}}</span>
+                            <span style="font-weight:600;font-size:14px;padding-top:3px;">钻机：</span>
+                            <span>{{bmInfo.drillingRigModel}}</span>
+                        </li>
+                        <li style="padding-top:5px;font-size:14px;">
+                            <span style="font-weight:600;font-size:14px;padding-top:3px;">甲方：</span>
+                            <span>{{bmInfo.first}}</span>
+                        </li>
+                        <li style="padding-top:5px;font-size:14px;">
+                            <span style="font-weight:600;font-size:14px;padding-top:3px;">经理：</span>
+                            <span>{{bmInfo.pManager}}</span>
+                        </li>
+                        <li style="padding-top:5px;font-size:14px;">
+                            <span style="font-weight:600;font-size:14px;padding-top:3px;">对号：</span>
+                            <span>{{bmInfo.team}}</span>
                         </li>
                         <li style="padding-top:5px;font-size:14px;">
                             <span style="font-weight:600;font-size:14px;padding-top:3px;">详情：</span>
@@ -75,7 +87,7 @@
         width="500px">
         <div>
             <span v-show="bmInfo.type === 0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;正在建设中...</span>
-            <span v-show="bmInfo.type === 1 || bmInfo.type === 2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{bmInfo.remarks}}</span>
+            <span v-show="bmInfo.type === 1 || bmInfo.type === 2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{bmInfo.remarks || '正在建设中...'}}</span>
         </div>
         <span slot="footer" class="dialog-footer">
             <el-button type="primary" @click="centerDialogVisible = false">关 闭</el-button>
@@ -88,11 +100,8 @@
                 <el-form-item label="名称" :label-width="formLabelWidth">
                     <el-input size="mini" v-model="formCondition.name" placeholder="输入名称"></el-input>
                 </el-form-item>
-                <el-form-item label="经度" :label-width="formLabelWidth">
-                    <el-input size="mini" v-model="formCondition.weiZhi" placeholder="经纬度数据，格式为：0.0"></el-input>
-                </el-form-item>
-                <el-form-item label="纬度" :label-width="formLabelWidth">
-                    <el-input size="mini" v-model="formCondition.weiZhi" placeholder="经纬度数据，格式为：0.0"></el-input>
+                <el-form-item label="位置" :label-width="formLabelWidth">
+                    <el-input size="mini" v-model="formCondition.weiZhi" placeholder="经纬度数据，格式为：0.0,0.0"></el-input>
                 </el-form-item>
                 <el-form-item label="地址" :label-width="formLabelWidth">
                     <el-input size="mini" v-model="formCondition.diZhi" placeholder="输入地址"></el-input>
@@ -133,8 +142,6 @@ export default {
     data () {
         return {
             show: false,
-            jiaYouZhanData: [], // 保存加油站数据
-            youKuData: [], // 保存油库信息
             points: [], // 地理位置信息
             zoom: 7,
             bmInfo: {},// 详细信息
@@ -178,6 +185,9 @@ export default {
                 ]
             },
             centerDialogVisible: false,
+            /// 覆盖物
+            active: false,
+            isShowYouKu: false,
             // 录入对话框
             /** 内部组件*/
             formCondition: {
@@ -199,48 +209,53 @@ export default {
         }
     },
     created () {
-        this.getWellSite()
+        this.getJiaYouZhanAndYouKu() 
     },
     methods: {
-        // 获取加油站信息
-        getWellSite () {
+        // 获取加油站和油库数据
+        getJiaYouZhanAndYouKu () {
             this.$store.commit("onIsLoading", true)
-            this.$api.JStationSite.selStationSite().then(res => {
+            Promise.all([this.$api.JStationSite.selStationSite(),this.$api.JDepotSite.selDepotSite()]).then(res => {
                 console.log(res)
-                if (Array.isArray(res.list)) {
-                    // let rows = require('./demo.json').list // 模拟数据
-                    let rows = res.list
-                    for (var i = 0; i < rows.length; i++) {
-                        this.jiaYouZhanData.push(rows[i])
-                        this.jiaYouZhanData[i].type = 2; // type为2是加油站
-                        this.jiaYouZhanData[i].imgUrl = require('@/assets/img/jiayouzhan-1.png')
-                        this.jiaYouZhanData[i].isShow = true
-                    }
-                    // 获取油库信息并拼到一起
-                    this.getYouKuData()
-                }
-            })
-        },
-        // 获取油库数据
-        getYouKuData () {
-            this.$api.JDepotSite.selDepotSite().then(res => {
-                if (Array.isArray(res.list)) {
-                    // let rows = require('./dmeo2.json').list // 模拟数据
-                    let rows = res.list
-                    for (var j = 0; j < rows.length; j++) {
-                        this.youKuData.push(rows[j])
-                        this.youKuData[j].type = 1; // type为1是油库
-                        this.youKuData[j].imgUrl = require('@/assets/img/youku-1.png')
-                        this.youKuData[j].isShow = false
+                if (Array.isArray(res)) {
+                    // 解析加油站
+                    let infos = res[0].list
+                    let jiaYouZhanData = []
+                    for (var i = 0; i < infos.length; i++) {
+                        jiaYouZhanData.push({
+                            id: infos[i].id,
+                            name: infos[i].name,
+                            liShu: infos[i].brand,
+                            lng: infos[i].x,
+                            lat: infos[i].y,
+                            remarks: infos[i].remarks,
+                            type: 1,
+                            imgUrl: require('@/assets/img/jiayouzhan-1.png'),
+                            isShow: true
+                        })
                     }
 
-                    let lists = this.jiaYouZhanData.concat(this.youKuData)
-                    for (var n = 0; n < lists.length; n++) {
-                        this.points.push(lists[n])
+                    // 解析油库
+                    let infos1 = res[1].list
+                    let youKuData = []
+                    for (var i = 0; i < infos1.length; i++) {
+                        youKuData.push({
+                            id: infos1[i].id,
+                            name: infos1[i].name,
+                            liShu: infos1[i].company,
+                            lng: infos1[i].x,
+                            lat: infos1[i].y,
+                            remarks: infos1[i].remarks,
+                            type: 2,
+                            imgUrl: require('@/assets/img/youku-1.png'),
+                            isShow: true
+                        })
                     }
-                    this.$store.commit("onIsLoading", false)
-                    console.log(this.points)
+
+                    // 数据合并
+                    this.points = youKuData.concat(jiaYouZhanData)
                 }
+                this.$store.commit("onIsLoading",false)
             })
         },
         getId(mess){
@@ -262,21 +277,20 @@ export default {
                     this.points[i].isShow = !state
                 }
             }
+            console.log(this.points)
         },
         // 油库显示隐藏
         youKuIsShow (state) {
-            console.log(state)
             for (let i = 0; i < this.points.length; i++) {
-                if (this.points[i].type == 1) {
+                if (this.points[i].type === 1) {
                     this.points[i].isShow = !state
                 }
             }
-            console.log(this.points)
         },
-        // 加油站显示隐藏
+        // 油站显示隐藏
         youZhanIsShow (state) {
             for (let i = 0; i < this.points.length; i++) {
-                if (this.points[i].type == 2) {
+                if (this.points[i].type === 2) {
                     this.points[i].isShow = !state
                 }
             }
@@ -284,12 +298,13 @@ export default {
         // 铁路线显示隐藏
         isShowTieLuXian (state) {
             console.log(this.mapStyle.styleJson)
-            if (state) {                
+            if (state) {
+                
                 this.mapStyle.styleJson.push({ // 铁路
                         "featureType": "railway",
                         "elementType": "all",
                         "stylers": {
-                                "color": "black-white"
+                                "color": "red"
                         }
                     })
             } else {
