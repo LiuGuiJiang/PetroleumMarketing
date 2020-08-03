@@ -1,0 +1,24 @@
+/*弹框*/
+.el-message-box {
+    width: 320px;
+}
+.el-message-box__title {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.el-message-box__content {
+    font-size: 12px;
+}
+
+/*消息提示*/
+.el-message {
+    min-width: 200px !important;
+    padding: 8px 8px 8px 20px;
+    top: 20%;
+}
+
+/*内置图标字体*/
+/* .el-menu-item i,.el-submenu__title i {
+    color: #FFF;
+} */

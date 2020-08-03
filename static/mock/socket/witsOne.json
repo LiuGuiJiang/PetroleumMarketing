@@ -1,0 +1,351 @@
+{
+    "status":"200",
+    "name":"一",
+    "result":{
+        "witsOne": {
+            "bitDepthMeasurement": {
+                "unit1": "M",
+                "unit2": "F",
+				"value": "2.5",
+                "chName": "钻头深度（测量）"
+            },
+            "bitTime": {
+                "unit1": "hour",
+                "unit2": "",
+				"value": "0",
+                "chName": "钻头时间"
+            },
+            "boreholeDeptMeasurement": {
+                "unit1": "M",
+                "unit2": "F",
+				"value": "3000",
+                "chName": "井眼深度（测量）"
+            },
+            "catheadPressure": {
+                "unit1": "Mpa",
+                "unit2": "",
+				"value": "16",
+                "chName": "猫头压力"
+            },
+            "columnCounting": {
+                "unit1": "pole",
+                "unit2": "",
+                "value": "3",
+                "chName": "立柱记数"
+            },
+            "combustibleGasOne": {
+                "unit1": "Mpa",
+                "unit2": "",
+				"value": "0.1",
+                "chName": "可燃气体1"
+            },
+            "combustibleGasTwo": {
+                "unit1": "Mpa",
+                "unit2": "",
+				"value": "0.2",
+                "chName": "可燃气体2"
+            },
+            "craneClampTorque": {
+                "unit1": "Strokes",
+                "unit2": "",
+                "value": "",
+                "chName": "吊钳扭矩"
+            },
+            "cumulativePumpImpulseSum": {
+                "unit1": "Strokes",
+                "unit2": "",
+				"value": "59997",
+                "chName": "累计泵冲总和"
+            },
+            "cumulativePumpStrokeOne": {
+                "unit1": "Strokes",
+                "unit2": "",
+				"value": "19999",
+                "chName": "累计泵冲次1"
+            },
+            "cumulativePumpStrokeThree": {
+                "unit1": "Strokes",
+                "unit2": "",
+				"value": "19999",
+                "chName": "累计泵冲次3"
+            },
+            "cumulativePumpStrokeTwo": {
+                "unit1": "Strokes",
+                "unit2": "",
+				"value": "1999",
+                "chName": "累计泵冲次2"
+            },
+            "departureTime": {
+                "unit1": "hour",
+                "unit2": "",
+                "value":"",
+                "chName": "离开井底时间"
+            },
+            "discBrakeOilPressure": {
+                "unit1": "Mpa",
+                "unit2": "",
+				"value": "8",
+                "chName": "盘刹油压"
+            },
+            "drillingPressureGroundAvg": {
+                "unit1": "KDN",
+                "unit2": "KLB",
+				"value": "159.9",
+                "chName": "钻压（地面，平均）"
+            },
+            "drillingTime": {
+                "unit1": "Min/m",
+                "unit2": "",
+				"value": "0.27",
+                "chName": "钻时"
+            },
+            "drillingToolLength": {
+                "unit1": "m",
+                "unit2": "",
+				"value": "311",
+                "chName": "钻具总长"
+            },
+            "drillingToolWeight": {
+                "unit1": "10kN",
+                "unit2": "",
+				"value": "300",
+                "chName": "钻具重量"
+            },
+            "eyeScratchingTime": {
+                "unit1": "hour",
+                "unit2": "",
+                "value":"",
+                "chName": "划眼时间"
+            },
+            "gasSourcePressure": {
+                "unit1": "Mpa",
+                "unit2": "",
+				"value": "0.6",
+                "chName": "气源压力"
+            },
+            "h2sOne": {
+                "unit1": "ppm",
+                "unit2": "",
+				"value": "20",
+                "chName": "硫化氢1"
+            },
+            "h2sThree": {
+                "unit1": "ppm",
+                "unit2": "",
+				"value": "18",
+                "chName": "硫化氢3"
+            },
+            "h2sTwo": {
+                "unit1": "ppm",
+                "unit2": "",
+				"value": "19",
+                "chName": "硫化氢2"
+            },
+            "hookLoadAvg": {
+                "unit1": "KDN",
+                "unit2": "KLB",
+				"value": "35.5",
+                "chName": "大钩负荷（平均）"
+            },
+            "hookSpeed": {
+                "unit1": "m/min",
+                "unit2": "",
+				"value": "3000",
+                "chName": "大钩速度"
+            },
+            "inletMudDensityAvg": {
+                "unit1": "KGM3 ",
+                "unit2": "PPG",
+                "chName": "入口泥浆密度（平均）",
+                "value":"1.8"
+            },
+            "inletMudFlowRateAvg": {
+                "unit1": "L/M",
+                "unit2": "BBL",
+                "chName": "入口泥浆流量（平均）",
+                "value":"1.3"
+            },
+            "inletMudTemperatureAvg": {
+                "unit1": "DEGC",
+                "unit2": "DEGC",
+                "chName": "入口泥浆温度（平均）",
+                "value":"65"
+            },
+            "leftWorkingClampPressure": {
+                "unit1": "MPa",
+                "unit2": "",
+                "chName": "左工作钳压力",
+                "value":"75"
+            },
+            "onePumpSpeed": {
+                "unit1": "SPM",
+                "unit2": "SPM",
+                "chName": "1#泵冲速",
+                "value":"85"
+            },
+            "outletMudDensityAvg": {
+                "unit1": "KGM3 ",
+                "unit2": "PPG",
+                "chName": "出口泥浆密度（平均）",
+                "value":"2.48"
+            },
+            "outletMudTemperatureAvg": {
+                "unit1": "DEGC",
+                "unit2": "DEGC",
+                "chName": "出口泥浆温度（平均）",
+                "value":"65"
+            },
+            "overloadTime": {
+                "unit1": "hour",
+                "unit2": "",
+                "value": "",
+                "chName": "重载时间"
+            },
+            "pumpOilPressureOne": {
+                "unit1": "Mpa",
+                "unit2": "",
+                "chName": "泵油压1",
+                "value":"2.5"
+            },
+            "pumpOilPressureThree": {
+                "unit1": "Mpa",
+                "unit2": "",
+                "chName": "泵油压3",
+                "value":"3.5"
+            },
+            "pumpOilPressureTwo": {
+                "unit1": "Mpa",
+                "unit2": "",
+                "chName": "泵油压2",
+                "value":"3"
+            },
+            "rightWorkingClampPressure": {
+                "unit1": "MPa",
+                "unit2": "",
+                "chName": "右工作钳压力",
+                "value":"6.2"
+            },
+            "riseDrillingTime": {
+                "unit1": "hour",
+                "unit2": "",
+                "value":"",
+                "chName": "起下钻时间"
+            },
+            "riserPressureAvg": {
+                "unit1": "KPA",
+                "unit2": "PSI",
+                "chName": "立管压力（平均）",
+                "value":"1.3"
+            },
+            "ropAvg": {
+                "unit1": "M/HR",
+                "unit2": "F/HR",
+                "chName": "机械钻速（平均）",
+                "value":"96"
+            },
+            "ropeWork": {
+                "unit1": "kN.km",
+                "unit2": "",
+                "value":"",
+                "chName": "大绳做功"
+            },
+            "safetyClampPressure": {
+                "unit1": "Mpa",
+                "unit2": "",
+                "chName": "安全钳压力",
+                "value":"7"
+            },
+            "singleCounting": {
+                "unit1": "radix",
+                "unit2": "",
+                "chName": "单根记数",
+                "value":"8.5"
+            },
+            "singleLength": {
+                "unit1": "m",
+                "unit2": "",
+                "value":"",
+                "chName": "单根长度"
+            },
+            "slurryFlowRate": {
+                "unit1": "%",
+                "unit2": "%",
+                "chName": "泥浆流量％",
+                "value":"35"
+            },
+            "squareLimitWellDepth": {
+                "unit1": "m",
+                "unit2": "",
+                "value":"",
+                "chName": "方限井深"
+            },
+            "sumDrillingTime": {
+                "unit1": "hour",
+                "unit2": "",
+                "chName": "总钻进时间",
+                "value":"115"
+            },
+            "threePumpSpeed": {
+                "unit1": "SPM",
+                "unit2": "SPM",
+                "chName": "3#泵冲速",
+                "value":"105"
+            },
+            "topDriveSpeed": {
+                "unit1": "rpm",
+                "unit2": "",
+                "chName": "顶驱转速",
+                "value":"105.5"
+            },
+            "topDriveTorque": {
+                "unit1": "kN.m",
+                "unit2": "",
+                "chName": "顶驱扭矩",
+                "value":"129.72"				
+            },
+            "tourCarLocation": {
+                "unit1": "M",
+                "unit2": "F",
+                "value":"",
+                "chName": "游车位置"
+            },
+            "turntableOilPressure": {
+                "unit1": "Mpa",
+                "unit2": "",
+                "value":"",
+                "chName": "转盘油压"
+            },
+            "turntableSpeedGroundAvg": {
+                "unit1": "RPM",
+                "unit2": "RPM",
+                "chName": "转盘速度（地面，平均） ",
+                "value":"210"
+            },
+            "turntableTorqueGroundAvg": {
+                "unit1": "KNM",
+                "unit2": "KFLB",
+                "chName": "转盘扭矩（地面，平均）",
+                "value":"10720"				
+            },
+            "twoPumpSpeed": {
+                "unit1": "SPM",
+                "unit2": "SPM",
+                "chName": "2#泵冲速",
+                "value":"120"
+            },
+            "combustibleGasThree": {
+                "unit1": "Mpa",
+                "unit2": "",
+                "chName": "可燃气体3",
+                "value":"0"				
+            },
+            "winchOilPressure": {
+                "unit1": "Mpa",
+                "unit2": "",
+                "chName": "绞车油压",
+                "value":"0.45"				
+            }
+        
+        }
+    }
+}

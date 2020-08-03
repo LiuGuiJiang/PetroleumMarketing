@@ -1,0 +1,226 @@
+{
+    "status":"200",
+    "name":"录井参数",
+    "result":{
+        "drillingParam":{
+            
+            "tg":{
+                "id":"13",
+                "chName":"全烃", 
+                "unit":"%", 
+                "imgUrl":"",
+                "value": "2.6874"
+            },
+            "inTemper":{
+                "id":"29",
+                "chName":"入口温度", 
+                "unit":"", 
+                "imgUrl":"",
+                "value": ""
+            },
+            "inSlurryTemper":{
+                "id":"30",
+                "chName":"入口泥浆温度（平均）", 
+                "unit":"DEGC", 
+                "imgUrl":"",
+                "value": "60"
+            },
+            "outTemper":{
+                "id":"31",
+                "chName":"出口温度", 
+                "unit":"", 
+                "imgUrl":"",
+                "value": ""
+            },
+            "outSlurryTemper":{
+                "id":"32",
+                "chName":"出口泥浆温度（平均）", 
+                "unit":"DEGC", 
+                "imgUrl":"",
+                "value": "60"
+            },
+            "bitFootage":{
+                "id":"33",
+                "chName":"钻头进尺", 
+                "unit":"M", 
+                "imgUrl":"",
+                "value": ""
+            },
+            "pump1Speed":{
+                "id":"42",
+                "chName":"一号泵冲速", 
+                "unit":"SPM", 
+                "imgUrl":"",
+                "value": "101.00"
+            },
+            "pump2Speed":{
+                "id":"44",
+                "chName":"二号泵冲速", 
+                "unit":"SPM", 
+                "imgUrl":"",
+                "value": "89.26"
+            },
+            "pump3Speed":{
+                "id":"46",
+                "chName":"三号泵冲速", 
+                "unit":"SPM", 
+                "imgUrl":"",
+                "value": "99.46"
+            },
+            "loopPot":{
+                "id":"47",
+                "chName":"循环罐", 
+                "unit":"", 
+                "imgUrl":"",
+                "value": ""
+            },
+            "co2":{
+                "id":"48",
+                "chName":"二氧化碳", 
+                "unit":"%", 
+                "imgUrl":"",
+                "value": "0"
+            },
+            "h2":{
+                "id":"49",
+                "chName":"氢气", 
+                "unit":"%", 
+                "imgUrl":"",
+                "value": "0"
+            },
+            "h2s":{
+                "id":"50",
+                "chName":"硫化氢", 
+                "unit":"%", 
+                "imgUrl":"",
+                "value": "0"
+            },
+            "chhm":{
+                "id":"51",
+                "chName":"重烃", 
+                "unit":"%", 
+                "imgUrl":"",
+                "value": "0.1659"
+            },
+            "bitTime":{
+                "id":"54",
+                "chName":"钻时", 
+                "unit":"min/m", 
+                "imgUrl":"",
+                "value": "8"
+            },
+            "wellDept":{
+                "id":"55",
+                "chName":"井深", 
+                "unit":"M", 
+                "imgUrl":"",
+                "value": "3630.5"
+            },
+            "ic5":{
+                "id":"57",
+                "chName":"异戊烷(全气量)", 
+                "unit":"%", 
+                "imgUrl":"",
+                "value": "0.0002"
+            },
+            "nc5":{
+                "id":"61",
+                "chName":"全气量nC5", 
+                "unit":"%", 
+                "imgUrl":"",
+                "value": "0.0001"
+            },
+            "nc4":{
+                "id":"62",
+                "chName":"全气量nC4", 
+                "unit":"%", 
+                "imgUrl":"",
+                "value": "0.0054"
+            },
+            "c3":{
+                "id":"63",
+                "chName":"全气量C3", 
+                "unit":"%", 
+                "imgUrl":"",
+                "value": "0.0221"
+            },
+            "c2":{
+                "id":"64",
+                "chName":"全气量C2", 
+                "unit":"%", 
+                "imgUrl":"",
+                "value": "0.1336"
+            },
+            "c1":{
+                "id":"65",
+                "chName":"全气量C1", 
+                "unit":"%", 
+                "imgUrl":"",
+                "value": "2.5215"
+            },
+            "ic4":{
+                "id":"66",
+                "chName":"异丁烷(全气量)", 
+                "unit":"%", 
+                "imgUrl":"",
+                "value": "0.0045"
+            },
+            "rotatingTorque":{
+                "id":"5",
+                "chName":"旋转扭矩", 
+                "unit":"KNM", 
+                "imgUrl":"",
+                "value": ""
+            },
+            "inFlow":{
+                "id":"6",
+                "chName":"流入量", 
+                "unit":"M3", 
+                "imgUrl":"",
+                "value": ""
+            },
+            "outFlow":{
+                "id":"7",
+                "chName":"流出量", 
+                "unit":"M3", 
+                "imgUrl":"",
+                "value": ""
+            },
+            "outSlurryFlow":{
+                "id":"8",
+                "chName":"出口泥浆流量（平均）", 
+                "unit":"L/M", 
+                "imgUrl":"",
+                "value": ""
+            },
+            "drillInMud":{
+                "id":"9",
+                "chName":"钻入泥浆", 
+                "unit":"", 
+                "imgUrl":"",
+                "value": ""
+            },
+            "drillOutMud":{
+                "id":"10",
+                "chName":"钻出泥浆", 
+                "unit":"", 
+                "imgUrl":"",
+                "value": ""
+            },
+            "loopDensity":{
+                "id":"11",
+                "chName":"钻井液循环密度", 
+                "unit":"", 
+                "imgUrl":"",
+                "value": ""
+            },
+            "allLoopDensity":{
+                "id":"12",
+                "chName":"全井深时有效循环密度（ecd）", 
+                "unit":"", 
+                "imgUrl":"",
+                "value": ""
+            }
+        }
+    }
+}

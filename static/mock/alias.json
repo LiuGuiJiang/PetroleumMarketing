@@ -1,0 +1,2712 @@
+{
+    "code": 200,
+    "data": {
+        "WitsTwentyTwo": [
+            {
+                "unit_p": "M",
+                "des": "井深（测量） ",
+                "name": "wellDepthMeasurement",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "M",
+                "des": " 井深（垂深） ",
+                "name": "wellDepthVertical",
+                "unit_e": "F"
+            }
+        ],
+        "WitsNine": [
+            {
+                "unit_p": "M",
+                "des": "井眼深度（测量）",
+                "name": "boreholeDeptMeasurement",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "M",
+                "des": "井眼深度（垂深）",
+                "name": "boreholeDepthVertical",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "M",
+                "des": "钻头深度（测量）",
+                "name": "bitDepthMeasurement",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "M",
+                "des": "钻头深度（垂深）",
+                "name": "bitDepthVertical",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "- ",
+                "des": " 通过次数",
+                "name": "passNum",
+                "unit_e": "- "
+            },
+            {
+                "unit_p": "KPA",
+                "des": "井底环空压力",
+                "name": "wellBottomRingAirPressure",
+                "unit_e": "PSI"
+            },
+            {
+                "unit_p": "KPA",
+                "des": "井底管内压力",
+                "name": "wellBottomRingInPressure",
+                "unit_e": "PSI"
+            },
+            {
+                "unit_p": "KDN",
+                "des": "井下钻压（平均）",
+                "name": "wellDownholeBitPressureAvg",
+                "unit_e": "KLB"
+            },
+            {
+                "unit_p": "KDN",
+                "des": "井下钻压（大）",
+                "name": "wellDownholeBitPressureMax",
+                "unit_e": "KLB"
+            },
+            {
+                "unit_p": "KNM",
+                "des": "井下扭矩（平均）",
+                "name": "wellBottomTorqueAvg",
+                "unit_e": "KFLB"
+            },
+            {
+                "unit_p": "KNM",
+                "des": "井下扭矩（大）",
+                "name": "wellBottomTorqueMax",
+                "unit_e": "KFLB"
+            },
+            {
+                "unit_p": "RPM",
+                "des": "井下马达每分钟转 ",
+                "name": "wellBottomMotorSpeed",
+                "unit_e": "RPM"
+            },
+            {
+                "unit_p": "V",
+                "des": " 随钻测量仪的交流发电机电压 ",
+                "name": "generatorVoltageMwd",
+                "unit_e": "V"
+            }
+        ],
+        "WitsEleven": [
+            {
+                "unit_p": "M",
+                "des": "井眼深度（测量）",
+                "name": "boreholeDeptMeasurement",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "M",
+                "des": "井眼深度（垂深）",
+                "name": "boreholeDepthVertical",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "M3",
+                "des": "池体积（总计）",
+                "name": "poolVolumeSum",
+                "unit_e": "BBL"
+            },
+            {
+                "unit_p": "M3",
+                "des": "池体积（活动）",
+                "name": "poolVolumeMove",
+                "unit_e": "BBL"
+            },
+            {
+                "unit_p": "M3",
+                "des": "池体积变化（总计）",
+                "name": "poolVolumeChangeSum",
+                "unit_e": "BBL"
+            },
+            {
+                "unit_p": "M3",
+                "des": "池体积变化（活动）",
+                "name": "poolVolumeChangeMove",
+                "unit_e": "BBL"
+            },
+            {
+                "unit_p": "M3",
+                "des": " 池体积复位时间 ",
+                "name": "poolVolumeResetTime",
+                "unit_e": "BBL"
+            },
+            {
+                "unit_p": "M3",
+                "des": "１号池体积",
+                "name": "poolVolumeOne",
+                "unit_e": "BBL"
+            },
+            {
+                "unit_p": "M3",
+                "des": "２号池体积 ",
+                "name": "poolVolumeTwo",
+                "unit_e": "BBL"
+            },
+            {
+                "unit_p": "M3",
+                "des": "３号池体积",
+                "name": "poolVolumeThree",
+                "unit_e": "BBL"
+            },
+            {
+                "unit_p": "M3",
+                "des": "４号池体积",
+                "name": "poolVolumeFour",
+                "unit_e": "BBL"
+            },
+            {
+                "unit_p": "M3",
+                "des": "５号池体积 ",
+                "name": "poolVolumeFive",
+                "unit_e": "BBL"
+            },
+            {
+                "unit_p": "M3",
+                "des": "6号池体积",
+                "name": "poolVolumeSix",
+                "unit_e": "BBL"
+            },
+            {
+                "unit_p": "M3",
+                "des": "7号池体积 ",
+                "name": "poolVolumeSeven",
+                "unit_e": "BBL"
+            },
+            {
+                "unit_p": "M3",
+                "des": "8号池体积",
+                "name": "poolVolumeEight",
+                "unit_e": "BBL"
+            },
+            {
+                "unit_p": "M3",
+                "des": "9号池体积",
+                "name": "poolVolumeNine",
+                "unit_e": "BBL"
+            },
+            {
+                "unit_p": "M3",
+                "des": "10号池体积 ",
+                "name": "poolVolumeTen",
+                "unit_e": "BBL"
+            },
+            {
+                "unit_p": "M3",
+                "des": "11号池体积 ",
+                "name": "poolVolumeEleven",
+                "unit_e": "BBL"
+            },
+            {
+                "unit_p": "M3",
+                "des": "12号池体积",
+                "name": "poolVolumeTwelve",
+                "unit_e": "BBL"
+            },
+            {
+                "unit_p": "M3",
+                "des": "13号池体积",
+                "name": "poolVolumeThirteen",
+                "unit_e": "BBL"
+            },
+            {
+                "unit_p": "M3",
+                "des": "14号池体积 ",
+                "name": "poolVolumeFourteen",
+                "unit_e": "BBL"
+            },
+            {
+                "unit_p": "M3",
+                "des": "起下钻１号池体积",
+                "name": "upDrilingPoolVolumeOne",
+                "unit_e": "BBL"
+            },
+            {
+                "unit_p": "M3",
+                "des": "起下钻２号池体积",
+                "name": "upDrilingPoolVolumeTwo",
+                "unit_e": "BBL"
+            },
+            {
+                "unit_p": "M3",
+                "des": "（备用１-5） ",
+                "name": "correctedDcindex",
+                "unit_e": "BBL"
+            },
+            {
+                "unit_p": "",
+                "des": "泥浆池体积15",
+                "name": "poolVolumeFifteen",
+                "unit_e": ""
+            },
+            {
+                "unit_p": "",
+                "des": "泥浆池体积16",
+                "name": "poolVolumeSixteen",
+                "unit_e": ""
+            }
+        ],
+        "WitsFourteen": [
+            {
+                "unit_p": "M",
+                "des": "返出井深（迟到井深）测深",
+                "name": "lateWellDepthMeasurement",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "M",
+                "des": "迟到井深（垂深）",
+                "name": "lateWellDepthVertical",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "KGM3 ",
+                "des": " 入口泥浆密度（返到） ",
+                "name": "inletMudDensityReturn",
+                "unit_e": "PPG"
+            },
+            {
+                "unit_p": "KGM3 ",
+                "des": "出口泥浆密度（平均）",
+                "name": "outletMudDensityAvg",
+                "unit_e": "PPG"
+            },
+            {
+                "unit_p": "DEGC  ",
+                "des": "入口泥浆温度（迟到） ",
+                "name": "inletMudTemperatureLate",
+                "unit_e": "DEGF "
+            },
+            {
+                "unit_p": "DEGC ",
+                "des": "出口泥浆温度（平均） ",
+                "name": "outletMudTemperatureAvg",
+                "unit_e": "DEGC"
+            },
+            {
+                "unit_p": "OHMM  ",
+                "des": " 入口泥浆电导率（迟到）",
+                "name": "inletMudConductivityLate",
+                "unit_e": "OHMM"
+            },
+            {
+                "unit_p": "OHMM  ",
+                "des": "  出口泥浆电导率（平均） ",
+                "name": "outletMudConductivityAvg",
+                "unit_e": "OHMM"
+            },
+            {
+                "unit_p": "PPM   ",
+                "des": " 硫化氢危害指数（平均） ",
+                "name": "h2sHazardAvg",
+                "unit_e": "PPM"
+            },
+            {
+                "unit_p": "-",
+                "des": "  硫化氢ｐH 值（平均）  ",
+                "name": "h2sPhAvg",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "%",
+                "des": " 硫化氢ｐHS 值（平均） ",
+                "name": "h2sPhsAvg",
+                "unit_e": "%"
+            },
+            {
+                "unit_p": "%",
+                "des": " 入口天然气含量（迟到） ",
+                "name": "inletNaturalGasLate",
+                "unit_e": "%"
+            },
+            {
+                "unit_p": "%",
+                "des": " 天然气含量（平均） ",
+                "name": "naturalGasAvg",
+                "unit_e": "%"
+            },
+            {
+                "unit_p": "%",
+                "des": " 天然气含量（最大） ",
+                "name": "naturalGasMax",
+                "unit_e": "%"
+            },
+            {
+                "unit_p": "PPM",
+                "des": "二氧化碳（平均） ",
+                "name": "co2Avg",
+                "unit_e": "PPM"
+            },
+            {
+                "unit_p": "PPM",
+                "des": " 硫化氢（平均） ",
+                "name": "h2sAvg",
+                "unit_e": "PPM"
+            },
+            {
+                "unit_p": "PPM",
+                "des": " 硫化氢（最大） ",
+                "name": "h2sMax",
+                "unit_e": "PPM"
+            }
+        ],
+        "WitsFour": [
+            {
+                "unit_p": "M",
+                "des": "井眼深度（垂深）",
+                "name": "boreholeDepthVertical",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "M",
+                "des": "钻头深度（测量）",
+                "name": "bitDepthMeasurement",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "M",
+                "des": "钻头深度（垂深）",
+                "name": "bitDepthVertical",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": " L/M ",
+                "des": "入口泥浆密度（平均） ",
+                "name": "inletMudDensityAvg",
+                "unit_e": "GPM "
+            },
+            {
+                "unit_p": "L/M",
+                "des": "入口泥浆流量（平均）",
+                "name": "inletMudFlowRateAvg",
+                "unit_e": "GPM"
+            },
+            {
+                "unit_p": "KPA",
+                "des": "立管压力（平均） ",
+                "name": "riserPressureAvg",
+                "unit_e": "PSI"
+            },
+            {
+                "unit_p": "CP",
+                "des": " 塑性粘度 ",
+                "name": "plasticViscosity",
+                "unit_e": "CP"
+            },
+            {
+                "unit_p": "PA",
+                "des": " 屈服点 ",
+                "name": "yieldPoint",
+                "unit_e": "PA"
+            },
+            {
+                "unit_p": "KPA",
+                "des": "钻头压力损失",
+                "name": "bitPressureLoss",
+                "unit_e": "PSI"
+            },
+            {
+                "unit_p": "KPA",
+                "des": "钻柱压力损失",
+                "name": "drillStringPressureLoss",
+                "unit_e": "PSI"
+            },
+            {
+                "unit_p": "KPA",
+                "des": "环空压力损失",
+                "name": "annulusPressureLoss",
+                "unit_e": "PSI"
+            },
+            {
+                "unit_p": "KPA",
+                "des": "地面压力损失",
+                "name": "groundPressureLoss",
+                "unit_e": "PSI"
+            },
+            {
+                "unit_p": "KPA",
+                "des": "泥浆马达压力损失",
+                "name": "mudMotorPressureLoss",
+                "unit_e": "PSI"
+            },
+            {
+                "unit_p": "KPA",
+                "des": "随钻测量仪压力损失",
+                "name": "measureInstrumentPressureLoss",
+                "unit_e": "PSI"
+            },
+            {
+                "unit_p": "%",
+                "des": "钻头压力损失百分比",
+                "name": "bitPressureLossPercentage",
+                "unit_e": "%"
+            },
+            {
+                "unit_p": "KW",
+                "des": "钻头水马力",
+                "name": "bitHhp",
+                "unit_e": "HP"
+            },
+            {
+                "unit_p": "KWM2",
+                "des": "钻头单位面积水马力",
+                "name": "bitUnitAreaHhp",
+                "unit_e": "HSI"
+            },
+            {
+                "unit_p": "KDN ",
+                "des": "喷射冲击力 ",
+                "name": "jetImpactForce",
+                "unit_e": "LB"
+            },
+            {
+                "unit_p": "M/S",
+                "des": "喷射速度 ",
+                "name": "injectionVelocity",
+                "unit_e": " FPS "
+            },
+            {
+                "unit_p": "M/S",
+                "des": "环空流速（最小）",
+                "name": "annularVelocityMin",
+                "unit_e": " FPM"
+            },
+            {
+                "unit_p": "M/S",
+                "des": "环空流速（最大）",
+                "name": "annularVelocityMax",
+                "unit_e": " FPM"
+            },
+            {
+                "unit_p": "KGM3",
+                "des": "全井深时有效循环密度（ECD）",
+                "name": "fullWellDepthLoopDensity",
+                "unit_e": "PPG"
+            },
+            {
+                "unit_p": "KGM3",
+                "des": "钻头处有效循环密度",
+                "name": "bitLoopDensity",
+                "unit_e": "PPG"
+            },
+            {
+                "unit_p": "KGM3",
+                "des": "套管鞋处有效循环密度 ",
+                "name": "casingShoesLoopDensity",
+                "unit_e": "PPG"
+            },
+            {
+                "unit_p": "KW",
+                "des": "泵水马力",
+                "name": "pumpingHorsepower",
+                "unit_e": "HP"
+            },
+            {
+                "unit_p": "%",
+                "des": " 计算／观察的压力损失比率 ",
+                "name": "pressureLossRatio",
+                "unit_e": "%"
+            }
+        ],
+        "WitsTwentyOne": [
+            {
+                "unit_p": "-",
+                "des": "侧钻／井眼号",
+                "name": "sidetracking",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "-",
+                "des": "记录标识符",
+                "name": "recordIdentifier",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "-",
+                "des": "序列标识符",
+                "name": "sequenceIdentifier",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "-",
+                "des": "日期",
+                "name": "date",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "-",
+                "des": "时间",
+                "name": "time",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "-",
+                "des": "活动码",
+                "name": "activeCode",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "-",
+                "des": "钻头编号",
+                "name": "bitNum",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "MM",
+                "des": "钻头直径",
+                "name": "bitDiameter",
+                "unit_e": "IN"
+            },
+            {
+                "unit_p": "-",
+                "des": "钻头厂家",
+                "name": "bitManufacturer",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "-",
+                "des": "钻头名称",
+                "name": "bitName",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "-",
+                "des": "IADC编码",
+                "name": "iadcCode",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "-",
+                "des": "钻头序列号",
+                "name": "bitSerialNum",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "$",
+                "des": "钻头价格",
+                "name": "bitPrice",
+                "unit_e": "$"
+            },
+            {
+                "unit_p": "MM",
+                "des": "喷咀1直径",
+                "name": "oneNozzleDiameter",
+                "unit_e": "I/32"
+            },
+            {
+                "unit_p": "MM",
+                "des": "喷咀2直径",
+                "name": "twoNozzleDiameter",
+                "unit_e": "I/32"
+            },
+            {
+                "unit_p": "MM",
+                "des": "喷咀3直径",
+                "name": "threeNozzleDiameter",
+                "unit_e": "I/32"
+            },
+            {
+                "unit_p": "MM",
+                "des": "喷咀4直径",
+                "name": "fourNozzleDiameter",
+                "unit_e": "I/32"
+            },
+            {
+                "unit_p": "MM",
+                "des": "中心喷咀直径",
+                "name": "coreNozzleDiameter",
+                "unit_e": "I/32"
+            },
+            {
+                "unit_p": "SQIN",
+                "des": "钻头总流动面积",
+                "name": "bitTotalFlowArea",
+                "unit_e": "MM2"
+            },
+            {
+                "unit_p": "M",
+                "des": "钻头下入井深",
+                "name": "bitDownholeDepth",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "M",
+                "des": "钻头起出井深",
+                "name": "bitOutletDepth",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "M",
+                "des": "运行进尺",
+                "name": "runningFootage",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "HR",
+                "des": "钻进时间 ",
+                "name": "drillEnterDate",
+                "unit_e": "HR"
+            },
+            {
+                "unit_p": "HR",
+                "des": "划眼时间 ",
+                "name": "eyeStrokeDate",
+                "unit_e": "HR"
+            },
+            {
+                "unit_p": "M/HR",
+                "des": "平均钻速 ",
+                "name": "drillRateAvg",
+                "unit_e": "M/HR"
+            },
+            {
+                "unit_p": "KDN",
+                "des": "平均钻压 ",
+                "name": "drillPressureAvg",
+                "unit_e": "KLB"
+            },
+            {
+                "unit_p": "KDN",
+                "des": "最大钻压 ",
+                "name": "drillPressureMax",
+                "unit_e": "KLB"
+            },
+            {
+                "unit_p": "RPM",
+                "des": "平均转速 ",
+                "name": "drillSpeedAvg",
+                "unit_e": "RPM"
+            },
+            {
+                "unit_p": "RPM",
+                "des": " 最大转速 ",
+                "name": "drillSpeedMax",
+                "unit_e": "RPM"
+            },
+            {
+                "unit_p": "L/M",
+                "des": "平均泥浆流速 ",
+                "name": "mudFlowRateAvg",
+                "unit_e": "GPM"
+            },
+            {
+                "unit_p": "KGM3",
+                "des": "平均泥浆密度  ",
+                "name": "mudDensityAvg",
+                "unit_e": "PPG"
+            },
+            {
+                "unit_p": "KPA",
+                "des": " 平均钻进立管压力 ",
+                "name": "riserPressureAvg",
+                "unit_e": "SPI"
+            },
+            {
+                "unit_p": "-",
+                "des": "钻进理由",
+                "name": "drillReasons",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "-",
+                "des": "起出理由 ",
+                "name": "giveReasons",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "-",
+                "des": "下入新度 ",
+                "name": "entryNovelty",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "-",
+                "des": "起出新度 ",
+                "name": "startNew",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "-",
+                "des": "是否使用震击器 ",
+                "name": "isUseJar",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "-",
+                "des": "是否使用泥浆马达 ",
+                "name": "isMudMotor",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "-",
+                "des": " 钻头注释 ",
+                "name": "isMudMotor",
+                "unit_e": "-"
+            },
+            {}
+        ],
+        "WitsTwenty": [
+            {
+                "unit_p": "M",
+                "des": "泥浆报告井深 ",
+                "name": "slurryPresentationWellDepth",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "M",
+                "des": " 泥浆报告垂深井深 ",
+                "name": "slurryPresentationWellDepthVertical",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "-",
+                "des": " 泥浆报告号 ",
+                "name": "slurryReportNo",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "-",
+                "des": " 泥浆类型 ",
+                "name": "slurryType",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "-",
+                "des": "泥浆样品位置",
+                "name": "slurrySampleLocation",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "-",
+                "des": "泥浆样品日期 ",
+                "name": "slurrySampleDate",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "-",
+                "des": " 泥浆样品时间 ",
+                "name": "slurrySampleTime",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "-",
+                "des": " 泥浆密度 ",
+                "name": "slurryDensity",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": " S/L ",
+                "des": "泥浆漏斗粘度 ",
+                "name": "slurryFunnelViscosity",
+                "unit_e": "S/QT "
+            },
+            {
+                "unit_p": "DEGC",
+                "des": "测量粘度时的温度 ",
+                "name": "measuringViscosityTemp",
+                "unit_e": "DEGC"
+            },
+            {
+                "unit_p": "CP",
+                "des": " 塑性粘度 ",
+                "name": "plasticViscosity",
+                "unit_e": "CP"
+            },
+            {
+                "unit_p": "PA",
+                "des": " 屈服点 ",
+                "name": "yieldPoint",
+                "unit_e": "PA"
+            },
+            {
+                "unit_p": "PA",
+                "des": "10 秒胶凝强度 ",
+                "name": "tenSCementitiousStrength",
+                "unit_e": "PA"
+            },
+            {
+                "unit_p": "PA",
+                "des": "10 分钟胶凝强度 ",
+                "name": "tenMCementitiousStrength",
+                "unit_e": "PA"
+            },
+            {
+                "unit_p": "PA",
+                "des": " 30 分钟胶凝强度 ",
+                "name": "thirtyMCementitiousStrength",
+                "unit_e": "PA"
+            },
+            {
+                "unit_p": " C/30 ",
+                "des": " 滤液 ",
+                "name": "filtrate",
+                "unit_e": " C/30 "
+            },
+            {
+                "unit_p": "MM ",
+                "des": " 泥饼(滤饼)  ",
+                "name": "mudCake",
+                "unit_e": " I/32 "
+            },
+            {
+                "unit_p": "DEGC",
+                "des": " 高温高压流动温度 ",
+                "name": "highTempPaFlowTemp",
+                "unit_e": "DEGC"
+            },
+            {
+                "unit_p": "KPA",
+                "des": " 高温高压流动压力 ",
+                "name": "highTempPaFlowPa",
+                "unit_e": "PSI "
+            },
+            {
+                "unit_p": " C/30 ",
+                "des": " 高温高压滤液 ",
+                "name": "highTempPaFiltrate",
+                "unit_e": " C/30 "
+            },
+            {
+                "unit_p": "MM",
+                "des": "高温高压滤饼 ",
+                "name": "highTempPaMudCake",
+                "unit_e": "I/32"
+            },
+            {
+                "unit_p": "MM",
+                "des": " 含固体百分比(干馏) ",
+                "name": "containingSolidsPercenDry",
+                "unit_e": "%"
+            },
+            {
+                "unit_p": "%",
+                "des": " 含水百分比(干馏) ",
+                "name": "containingWaterPercenDry",
+                "unit_e": "%"
+            },
+            {
+                "unit_p": "%",
+                "des": "含油百分比(干馏) ",
+                "name": "containingOilPercenDry",
+                "unit_e": "%"
+            },
+            {
+                "unit_p": "%",
+                "des": " 含砂百分比 ",
+                "name": "containingSandPercen",
+                "unit_e": "%"
+            },
+            {
+                "unit_p": "%",
+                "des": " 含低比重固体百分比 ",
+                "name": "containLowSpecificGravitySolidsPercen",
+                "unit_e": "%"
+            },
+            {
+                "unit_p": "%",
+                "des": " 固体百分比(计算) ",
+                "name": "solidPercenCount",
+                "unit_e": "%"
+            },
+            {
+                "unit_p": "%",
+                "des": "重晶石含量 ",
+                "name": "bariteContent",
+                "unit_e": "%"
+            },
+            {
+                "unit_p": "KGM3 ",
+                "des": "堵漏材料含量 ",
+                "name": "pluggingStuffContent",
+                "unit_e": "PPB "
+            },
+            {
+                "unit_p": "KGM3 ",
+                "des": "MBT 能力 ",
+                "name": "mbtAbility",
+                "unit_e": "PPB "
+            },
+            {
+                "unit_p": "-",
+                "des": " ｐH 值 ",
+                "name": "WitsTwenty",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "DEGC  ",
+                "des": "ｐH 值样品温度 ",
+                "name": "phSampleTemp",
+                "unit_e": "DEGF "
+            },
+            {
+                "unit_p": " MLML ",
+                "des": " Pm 值 ",
+                "name": "pm",
+                "unit_e": " MLML "
+            },
+            {
+                "unit_p": " MLML ",
+                "des": " Pf 值  ",
+                "name": "pf",
+                "unit_e": " MLML "
+            },
+            {
+                "unit_p": " MLML ",
+                "des": " Mf 值 ",
+                "name": "mf",
+                "unit_e": " MLML "
+            },
+            {
+                "unit_p": " MLML ",
+                "des": "  P1 值 ",
+                "name": "p1",
+                "unit_e": " MLML "
+            },
+            {
+                "unit_p": " MLML ",
+                "des": " P2 值   ",
+                "name": "p2",
+                "unit_e": " MLML "
+            },
+            {
+                "unit_p": "MG/L ",
+                "des": " 氯离子含量  ",
+                "name": "chlorideIonContent",
+                "unit_e": "MG/L "
+            },
+            {
+                "unit_p": "MG/L ",
+                "des": " 钙离子含量  ",
+                "name": "calciumIonContent",
+                "unit_e": "MG/L "
+            },
+            {
+                "unit_p": "MG/L ",
+                "des": "镁离子含量 ",
+                "name": "magnesiumIonContent",
+                "unit_e": "MG/L "
+            },
+            {
+                "unit_p": "MG/L ",
+                "des": " 钾离子含量 ",
+                "name": "potassiumIonContent",
+                "unit_e": "MG/L "
+            },
+            {
+                "unit_p": "MG/L ",
+                "des": " 电流计温度 ",
+                "name": "galvanometerTemp",
+                "unit_e": "MG/L "
+            },
+            {
+                "unit_p": "-",
+                "des": "3 转粘度计读数 ",
+                "name": "threeRotatingViscometerReadings",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "-",
+                "des": " 6 转时粘度计读数 ",
+                "name": "sixRotatingViscometerReadings",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "-",
+                "des": " 100 转时粘度计读数 ",
+                "name": "oneHundredRotatingViscometerReadings",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "-",
+                "des": " 200 转时粘度计读数 ",
+                "name": "twoHundredRotatingViscometerReadings",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "-",
+                "des": "300 转时粘度计读数 ",
+                "name": "threeHundredRotatingViscometerReadings",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "-",
+                "des": "600 转时粘度计读数 ",
+                "name": "sixHundredRotatingViscometerReadings",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "%",
+                "des": "盐水百分比 ",
+                "name": "percentageBrine",
+                "unit_e": "%"
+            },
+            {
+                "unit_p": " MLML ",
+                "des": "含碱度 ",
+                "name": "alkalinity",
+                "unit_e": " MLML "
+            },
+            {
+                "unit_p": "KGM3 ",
+                "des": "氢氧化钙含量 ",
+                "name": "calciumHydroxideContent",
+                "unit_e": "PPB "
+            },
+            {
+                "unit_p": "V",
+                "des": "电稳定性 ",
+                "name": "electricalStability",
+                "unit_e": "V"
+            },
+            {
+                "unit_p": "%",
+                "des": " 水中氯化钙％ ",
+                "name": "waterCalciumChloridePercen",
+                "unit_e": "%"
+            }
+        ],
+        "WitsThirteen": [
+            {
+                "unit_p": "M",
+                "des": "返出井深（迟到井深）测深",
+                "name": "returnWellDepthMeasurement",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "M",
+                "des": "迟到井深（垂深）",
+                "name": "returnWellDepthVertical",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "PPM ",
+                "des": " 甲烷（C1 平均） ",
+                "name": "ch4Avg",
+                "unit_e": "PPM "
+            },
+            {
+                "unit_p": "PPM ",
+                "des": "甲烷（C1最小） ",
+                "name": "ch4Min",
+                "unit_e": "PPM "
+            },
+            {
+                "unit_p": "PPM ",
+                "des": " 甲烷（C1最大） ",
+                "name": "ch4Max",
+                "unit_e": "PPM "
+            },
+            {
+                "unit_p": "PPM ",
+                "des": " 乙烷（C2 平均） ",
+                "name": "c2c6Avg",
+                "unit_e": "PPM "
+            },
+            {
+                "unit_p": "PPM ",
+                "des": "乙烷（C2最小） ",
+                "name": "c2c6Min",
+                "unit_e": "PPM "
+            },
+            {
+                "unit_p": "PPM ",
+                "des": "乙烷（C2最大） ",
+                "name": "c2c6Max",
+                "unit_e": "PPM "
+            },
+            {
+                "unit_p": "PPM ",
+                "des": "丙烷（C3平均）",
+                "name": "c3h8Avg",
+                "unit_e": "PPM "
+            },
+            {
+                "unit_p": "PPM ",
+                "des": "丙烷（C3最小）",
+                "name": "c3h8Min",
+                "unit_e": "PPM "
+            },
+            {
+                "unit_p": "PPM ",
+                "des": "丙烷（C3最大）",
+                "name": "c3h8Max",
+                "unit_e": "PPM "
+            },
+            {
+                "unit_p": "PPM ",
+                "des": "异丁烷（IC4平均） ",
+                "name": "c4h10DiffAvg",
+                "unit_e": "PPM "
+            },
+            {
+                "unit_p": "PPM ",
+                "des": "异丁烷（IC4最小）",
+                "name": "c4h10DiffMin",
+                "unit_e": "PPM "
+            },
+            {
+                "unit_p": "PPM ",
+                "des": "异丁烷（IC4最大）",
+                "name": "c4h10DiffMax",
+                "unit_e": "PPM "
+            },
+            {
+                "unit_p": "PPM ",
+                "des": "正丁烷（NC4平均）",
+                "name": "c4h10Avg",
+                "unit_e": "PPM "
+            },
+            {
+                "unit_p": "PPM ",
+                "des": "正丁烷（NC4最小）",
+                "name": "c4h10Min",
+                "unit_e": "PPM "
+            },
+            {
+                "unit_p": "PPM ",
+                "des": "正丁烷（NC4最大）",
+                "name": "c4h10Max",
+                "unit_e": "PPM "
+            },
+            {
+                "unit_p": "PPM ",
+                "des": "异戊烷（IC5平均）",
+                "name": "c5h12DiffAvg",
+                "unit_e": "PPM "
+            },
+            {
+                "unit_p": "PPM ",
+                "des": "异戊烷（IC5最小）",
+                "name": "c5h12DiffMin",
+                "unit_e": "PPM "
+            },
+            {
+                "unit_p": "PPM ",
+                "des": "异戊烷（IC5最大）",
+                "name": "c5h12DiffMax",
+                "unit_e": "PPM "
+            },
+            {
+                "unit_p": "PPM ",
+                "des": "正戊烷（NC5平均）",
+                "name": "c5h12Avg",
+                "unit_e": "PPM "
+            },
+            {
+                "unit_p": "PPM ",
+                "des": "正戊烷（NC5最小）",
+                "name": "c5h12Min",
+                "unit_e": "PPM "
+            },
+            {
+                "unit_p": "PPM ",
+                "des": "正戊烷（NC5最大）",
+                "name": "c5h12Max",
+                "unit_e": "PPM "
+            },
+            {
+                "unit_p": "PPM ",
+                "des": "新戊烷（EC5平均）",
+                "name": "c5h12NewAvg",
+                "unit_e": "PPM "
+            },
+            {
+                "unit_p": "PPM ",
+                "des": "新戊烷（EC5最小）",
+                "name": "c5h12NewMin",
+                "unit_e": "PPM "
+            },
+            {
+                "unit_p": "PPM ",
+                "des": "新戊烷（EC5最大）",
+                "name": "c5h12NewMax",
+                "unit_e": "PPM "
+            },
+            {
+                "unit_p": "PPM ",
+                "des": "异己烷（IC6 平均）",
+                "name": "c6h14DiffAvg",
+                "unit_e": "PPM "
+            },
+            {
+                "unit_p": "PPM ",
+                "des": "异己烷（IC6最小） ",
+                "name": "c6h14DiffMin",
+                "unit_e": "PPM "
+            },
+            {
+                "unit_p": "PPM ",
+                "des": "异己烷（IC6最大）",
+                "name": "c6h14DiffMax",
+                "unit_e": "PPM "
+            },
+            {
+                "unit_p": "PPM ",
+                "des": "正己烷（NC6 平均）",
+                "name": "c6h14Avg",
+                "unit_e": "PPM "
+            },
+            {
+                "unit_p": "PPM ",
+                "des": "正己烷（NC6最小） ",
+                "name": "c6h14Min",
+                "unit_e": "PPM "
+            },
+            {
+                "unit_p": "PPM ",
+                "des": "正己烷（NC6最大）",
+                "name": "c6h14Max",
+                "unit_e": "PPM "
+            },
+            {
+                "unit_p": "PPM ",
+                "des": " 二氧化碳（CO2 平均）",
+                "name": "co2Avg",
+                "unit_e": "PPM"
+            },
+            {
+                "unit_p": "PPM ",
+                "des": "二氧化碳（CO2最小）",
+                "name": "co2Min",
+                "unit_e": "PPM "
+            },
+            {
+                "unit_p": "PPM ",
+                "des": " 二氧化碳（CO2最大）",
+                "name": "co2Max",
+                "unit_e": "PPM "
+            },
+            {
+                "unit_p": "PPM ",
+                "des": "乙炔",
+                "name": "c2h2",
+                "unit_e": "PPM "
+            }
+        ],
+        "WitsTen": [
+            {
+                "unit_p": "M",
+                "des": "井眼深度（测量）",
+                "name": "boreholeDeptMeasurement",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "M",
+                "des": "井眼深度（垂深）",
+                "name": "boreholeDepthVertical",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "M",
+                "des": " 取样深度（测深）",
+                "name": "samplingDepthMeasurement",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "M",
+                "des": " 取样深度（垂深）",
+                "name": "samplingDepthVertical",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "KGM3 ",
+                "des": " 地层孔隙压力梯度估价 ",
+                "name": "stratumPorePressureGradientValuation",
+                "unit_e": "PPG"
+            },
+            {
+                "unit_p": "KGM3 ",
+                "des": " 地层破裂压力梯度估价 ",
+                "name": "stratumFracturePressureGradientValuation",
+                "unit_e": "PPG"
+            },
+            {
+                "unit_p": "KGM3 ",
+                "des": "上复地层压力梯度估价",
+                "name": "upReplyStratumPressureGradientValuation",
+                "unit_e": "PPG"
+            },
+            {
+                "unit_p": "KGM3 ",
+                "des": "井角允许限度估价 ",
+                "name": "wellAngleAllowLimitValuation",
+                "unit_e": "PPG"
+            },
+            {
+                "unit_p": "KPA",
+                "des": "大允许关井套管压力（初始）",
+                "name": "allowShutWellCasingPressureinit",
+                "unit_e": "PSI"
+            },
+            {
+                "unit_p": "%",
+                "des": "接单根气（平均）",
+                "name": "acceptSingleGasAvg",
+                "unit_e": "%"
+            },
+            {
+                "unit_p": "%",
+                "des": "接单根气（大）",
+                "name": "acceptSingleGasMax",
+                "unit_e": "%"
+            },
+            {
+                "unit_p": "%",
+                "des": "接单根气（后）",
+                "name": "acceptSingleGasLast",
+                "unit_e": "%"
+            },
+            {
+                "unit_p": "%",
+                "des": "后下钻气 ",
+                "name": "backDownDrilling",
+                "unit_e": "%"
+            },
+            {
+                "unit_p": "G/CC",
+                "des": " 页岩密度 ",
+                "name": "shaleDensity",
+                "unit_e": "G/CC"
+            },
+            {
+                "unit_p": "MEHG",
+                "des": " 岩屑页岩阳离子转换能力",
+                "name": "clasticShaleCationTranAbility",
+                "unit_e": "MEHG"
+            },
+            {
+                "unit_p": "%",
+                "des": " 岩屑掉块百分比  ",
+                "name": "debrisDropBlockPercentage",
+                "unit_e": "%"
+            },
+            {
+                "unit_p": "-",
+                "des": " 校正的 DC 指数  ",
+                "name": "correctedDcindex",
+                "unit_e": "-"
+            }
+        ],
+        "WitsThree": [
+            {
+                "unit_p": "M",
+                "des": "井深（测量） ",
+                "name": "wellDeptMeasure",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "M",
+                "des": " 井深（垂深） ",
+                "name": "wellDeptVertical",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "KDN ",
+                "des": "大钩负荷（大）",
+                "name": "hookLoadMax",
+                "unit_e": "KLB "
+            }
+        ],
+        "WitsSeventeen": [
+            {
+                "unit_p": "M",
+                "des": "井眼深度（测量）",
+                "name": "boreholeDeptMeasurement",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "M",
+                "des": "井眼深度（垂深）",
+                "name": "boreholeDepthVertical",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "M",
+                "des": "套管鞋深度（测深）",
+                "name": "casingShoeDepthMeasurement",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "M",
+                "des": "套管鞋深度（垂深）",
+                "name": "casingShoeDepthVertical",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "KPA",
+                "des": "注水泥泵压（平均）",
+                "name": "cementingPumpPressureAvg",
+                "unit_e": "PSI"
+            },
+            {
+                "unit_p": "KDN",
+                "des": "大钩负荷（平均）",
+                "name": "hookLoadAvg",
+                "unit_e": "KLB"
+            },
+            {
+                "unit_p": "M",
+                "des": " 游车位置 ",
+                "name": "tourCarLocation",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "M3/M",
+                "des": "注水泥入口流量（计算）",
+                "name": "cementingInletFlowCount",
+                "unit_e": "BPM"
+            },
+            {
+                "unit_p": "M3/M",
+                "des": "注水泥入口流量（平均）",
+                "name": "cementingInletFlowAvg",
+                "unit_e": "BPM"
+            },
+            {
+                "unit_p": "M3/M",
+                "des": "注水泥出口流量（平均）",
+                "name": "cementingExitFlowAvg",
+                "unit_e": "BPM"
+            },
+            {
+                "unit_p": "%",
+                "des": " 注水泥出口流量百分比 ",
+                "name": "cementingExitFlowPercentage",
+                "unit_e": "%"
+            },
+            {
+                "unit_p": "KGM3 ",
+                "des": "注水泥入口流体密度（平均）",
+                "name": "cementingInletFluidDensityAvg",
+                "unit_e": "PPG"
+            },
+            {
+                "unit_p": "KGM3 ",
+                "des": "注水泥出口流体密度（平均） ",
+                "name": "cementingExitFluidDensityAvg",
+                "unit_e": "PPG"
+            },
+            {
+                "unit_p": "KGM3 ",
+                "des": "套管鞋处的有效循环密度（ECD） ",
+                "name": "casingShoesEffectiveCycleDensity",
+                "unit_e": "PPG"
+            },
+            {
+                "unit_p": "DEGC  ",
+                "des": "注水泥入口流体温度（平均）",
+                "name": "cementingInletFluidTempAvg",
+                "unit_e": "DEGF "
+            },
+            {
+                "unit_p": "DEGC ",
+                "des": " 注水泥出口流体温度（平均） ",
+                "name": "cementingExitFluidTempAvg",
+                "unit_e": "DEGC"
+            },
+            {
+                "unit_p": "-",
+                "des": "注水泥阶段号数",
+                "name": "cementingStageNumber",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "M",
+                "des": "注水泥到 DV 仪的深度",
+                "name": "cementingDvDept",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "-",
+                "des": "注水泥流体类型及",
+                "name": "cementingFluidType",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "M3",
+                "des": "注水泥累计返出量",
+                "name": "cementingCumulativeReturn",
+                "unit_e": "BBL"
+            },
+            {
+                "unit_p": "M3",
+                "des": "注水泥泵出单一体积",
+                "name": "cementingPumpSingleVolume",
+                "unit_e": "BBL"
+            },
+            {
+                "unit_p": "M3",
+                "des": "注水泥泵出水泥体积",
+                "name": "cementingPumpCementVolume",
+                "unit_e": "BBL"
+            },
+            {
+                "unit_p": "M3",
+                "des": "注水泥泵出总体积",
+                "name": "cementingPumpSumVolume",
+                "unit_e": "BBL"
+            },
+            {
+                "unit_p": "M3",
+                "des": "注水泥碰塞（碰压）体积 ",
+                "name": "cementingBumpingVolume",
+                "unit_e": "BBL"
+            },
+            {
+                "unit_p": "-",
+                "des": " 注水泥水泥塞的数量及状态 ",
+                "name": "cementingStopperNumAndState",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "-",
+                "des": " 注水泥作业类型 ",
+                "name": "cementingJobType",
+                "unit_e": "-"
+            }
+        ],
+        "WitsSeven": [
+            {
+                "unit_p": "M",
+                "des": " 测斜深度及读数（测量）",
+                "name": "inclinometerDepthReadingMeasurement",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "M",
+                "des": " 测斜深度及读数（垂深） ",
+                "name": "inclinometerDepthReadingVertical",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "-",
+                "des": "测斜次数",
+                "name": "inclinometerNum",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "M",
+                "des": "井眼深度（测量） ",
+                "name": "boreholeDepthMeasurement",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "-",
+                "des": " 测斜类型 ",
+                "name": "inclinometerType",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "DEG ",
+                "des": " 斜度",
+                "name": "slope",
+                "unit_e": "DEG "
+            },
+            {
+                "unit_p": "DEG",
+                "des": " 测斜方位（未校正）",
+                "name": "wellPositionUncorrected",
+                "unit_e": "DEG"
+            },
+            {
+                "unit_p": "DEG ",
+                "des": " 测斜方位（校正）",
+                "name": "wellPositionCorrected",
+                "unit_e": "DEG"
+            },
+            {
+                "unit_p": "DEG ",
+                "des": " 测斜磁力仪面",
+                "name": "inclinometerMagnetometerSurface",
+                "unit_e": "DEG "
+            },
+            {
+                "unit_p": "DEG ",
+                "des": " 测斜重力仪面 ",
+                "name": "inclinometerGravimeterSurface",
+                "unit_e": "DEG "
+            },
+            {
+                "unit_p": "M",
+                "des": "  测斜南北位置",
+                "name": "inclinometerNorthSouthPosition",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "M",
+                "des": " 测斜东西位置 ",
+                "name": "inclinometerEastWestPosition",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "DGHM ",
+                "des": " 测斜狗腿度 ",
+                "name": "inclinometerDoglegDegree",
+                "unit_e": "DGHM "
+            },
+            {
+                "unit_p": "DGHM ",
+                "des": "  方向腿度测量  ",
+                "name": "inclinometerMovingSpeed",
+                "unit_e": "DGHM "
+            }
+        ],
+        "WitsEight": [
+            {
+                "unit_p": "M",
+                "des": "井眼深度（测量）",
+                "name": "boreholeDeptMeasurement",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "M",
+                "des": "井眼深度（垂深）",
+                "name": "boreholeDepthVertical",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "M",
+                "des": "钻头深度（测量）",
+                "name": "bitDepthMeasurement",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "M",
+                "des": "钻头深度（垂深）",
+                "name": "bitDepthVertical",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "- ",
+                "des": " 通过次数",
+                "name": "passNum",
+                "unit_e": "- "
+            },
+            {
+                "unit_p": "M",
+                "des": "１号电阻率传感器深度（测量）",
+                "name": "oneResistivitySensorDeptMeasurement",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "M",
+                "des": "１号电阻率传感器深度（垂深）",
+                "name": "oneResistivitySensorDeptVertical",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "OHMM",
+                "des": "电阻率１读数 ",
+                "name": "oneResistivityRead",
+                "unit_e": "OHMM"
+            },
+            {
+                "unit_p": "OHMM ",
+                "des": "电阻率１井眼校正",
+                "name": "oneResistivityBoreholeCorrected",
+                "unit_e": "OHMM "
+            },
+            {
+                "unit_p": "M",
+                "des": "２号电阻率传感器深度（测深）",
+                "name": "twoResistivitySensorDeptMeasurement",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "M",
+                "des": "２号电阻率传感器深度（垂深）",
+                "name": "twoRresistivitySensorDeptVertical",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "OHMM",
+                "des": "２号电阻率读数",
+                "name": "twoRresistivityRead",
+                "unit_e": "OHMM"
+            },
+            {
+                "unit_p": "OHMM",
+                "des": "２号电阻率井眼校正",
+                "name": "twoRresistivityBoreholeCorrected",
+                "unit_e": "OHMM"
+            },
+            {
+                "unit_p": "M",
+                "des": "伽玛射线传感器１深度（测深）",
+                "name": "oneGammaRaySensorDeptMeasurement",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "M",
+                "des": " 伽玛射线传感器１深度（垂深）",
+                "name": "oneGammaRaySensorDeptVertical",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "API",
+                "des": "伽玛射线１读数 ",
+                "name": "oneGammaRayRead",
+                "unit_e": "API"
+            },
+            {
+                "unit_p": "API",
+                "des": "伽玛射线１井眼校正",
+                "name": "oneGammaRayBoreholeCorrected",
+                "unit_e": "API"
+            },
+            {
+                "unit_p": "M",
+                "des": "伽玛射线２传感器深度（测深）",
+                "name": "twoGammaRaySensorDeptMeasurement",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "M",
+                "des": "伽玛射线２传感器深度（垂深）",
+                "name": "twoGammaRaySensorDeptVertical",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "API",
+                "des": " 伽玛射线２读数",
+                "name": "twoGammaRayRead",
+                "unit_e": "API"
+            },
+            {
+                "unit_p": "API",
+                "des": " 伽玛射线２井眼校正 ",
+                "name": "twoGammaRayBoreholeCorrected",
+                "unit_e": "API"
+            },
+            {
+                "unit_p": "M",
+                "des": " 孔隙度传感器 1 深度（测深）",
+                "name": "onePorositySensorDeptMeasurement",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "M",
+                "des": "孔隙度传感器 1 深度（垂深）",
+                "name": "onePorositySensorDeptVertical",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "API",
+                "des": " 孔隙度仪１读数 ",
+                "name": "onePorosityRead",
+                "unit_e": "API"
+            },
+            {
+                "unit_p": "M",
+                "des": " 孔隙度传感器２深度（测深）",
+                "name": "twoPorositySensorDeptMeasurement",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "M",
+                "des": " 孔隙度传感器２深度（垂深）",
+                "name": "twoPorositySensorDeptVertical",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "API",
+                "des": "孔隙度仪２读数 ",
+                "name": "twoPorosityRead",
+                "unit_e": "API"
+            },
+            {
+                "unit_p": "DEGC",
+                "des": "井下流体温度（环空）",
+                "name": "downholeFluidTemperatureAnnulus",
+                "unit_e": "DEGC"
+            },
+            {
+                "unit_p": "DEGC",
+                "des": " 井下流体温度（钻杆）",
+                "name": "downholeFluidTemperaturePipe",
+                "unit_e": "DEGC"
+            },
+            {
+                "unit_p": "OHMM",
+                "des": " 井下流体电阻率（环空）",
+                "name": "downholeFluidResistivityAnnulus",
+                "unit_e": "OHMM"
+            },
+            {
+                "unit_p": "OHMM",
+                "des": " 井下流体电阻率（钻杆） ",
+                "name": "downholeFluidResistivityPipe",
+                "unit_e": "OHMM"
+            },
+            {
+                "unit_p": "M",
+                "des": "  地层密度深度（测深） ",
+                "name": "formationDensityMeasurement",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "M",
+                "des": " 地层密度深度（垂深）",
+                "name": "formationDensityVertical",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "G/CC",
+                "des": "地层密度 ",
+                "name": "formationDensity",
+                "unit_e": "G/CC"
+            },
+            {
+                "unit_p": "M",
+                "des": " 井径仪深度（测深） ",
+                "name": "caliperDepthMeasurement",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "M",
+                "des": " 井径仪深度（垂深） ",
+                "name": "caliperDepthVertical",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "MM",
+                "des": "井径仪规格 ",
+                "name": "caliperSpecification",
+                "unit_e": "IN"
+            },
+            {
+                "unit_p": "KGM3",
+                "des": " MWD 孔隙压力梯度 ",
+                "name": "mvdPorePressureGradient",
+                "unit_e": " PPG "
+            },
+            {
+                "unit_p": "KGM3",
+                "des": " MWD 破裂压力梯度 ",
+                "name": "mvdFracturePressureGradient",
+                "unit_e": " PPG "
+            }
+        ],
+        "WitsOne": [
+            {
+                "unit_p": "M",
+                "des": "钻头深度（测量）",
+                "name": "bitDepthMeasurement",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "M",
+                "des": "钻头深度（垂深）",
+                "name": "bitDepthVertical",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "M",
+                "des": "井眼深度（测量）",
+                "name": "boreholeDeptMeasurement",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "M",
+                "des": "井眼深度（垂深）",
+                "name": "boreholeDepthVertical",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "M",
+                "des": "游车位置",
+                "name": "tourCarLocation",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "M/HR ",
+                "des": "机械钻速（平均）",
+                "name": "ropAvg",
+                "unit_e": "F/HR"
+            },
+            {
+                "unit_p": "KDN",
+                "des": "大钩负荷（平均）",
+                "name": "hookLoadAvg",
+                "unit_e": "KLB"
+            },
+            {
+                "unit_p": "KDN",
+                "des": "大钩负荷（大）",
+                "name": "hookLoadMax",
+                "unit_e": "KLB"
+            },
+            {
+                "unit_p": "KDN",
+                "des": "钻压（地面，平均）",
+                "name": "drillingPressureGroundAvg",
+                "unit_e": "KLB"
+            },
+            {
+                "unit_p": "KDN",
+                "des": "钻压（地面，大）",
+                "name": "drillingPressureGroundMax",
+                "unit_e": "KLB"
+            },
+            {
+                "unit_p": "KNM",
+                "des": "转盘扭矩（地面，平均）",
+                "name": "turntableTorqueGroundAvg",
+                "unit_e": "KFLB"
+            },
+            {
+                "unit_p": "KNM",
+                "des": "转盘扭矩（地面，最大）",
+                "name": "turntableTorqueGroundMax",
+                "unit_e": "KFLB"
+            },
+            {
+                "unit_p": "RPM",
+                "des": "转盘速度（地面，平均） ",
+                "name": "turntableSpeedGroundAvg",
+                "unit_e": "RPM"
+            },
+            {
+                "unit_p": "KPA",
+                "des": "立管压力（平均）",
+                "name": "riserPressureAvg",
+                "unit_e": "PSI"
+            },
+            {
+                "unit_p": "KPA",
+                "des": "套管压力",
+                "name": "casingPressure",
+                "unit_e": "PSI"
+            },
+            {
+                "unit_p": "SPM",
+                "des": "1#泵冲速",
+                "name": "onePumpSpeed",
+                "unit_e": "SPM"
+            },
+            {
+                "unit_p": "SPM",
+                "des": "2#泵冲速",
+                "name": "twoPumpSpeed",
+                "unit_e": "SPM"
+            },
+            {
+                "unit_p": "SPM",
+                "des": "3#泵冲速",
+                "name": "threePumpSpeed",
+                "unit_e": "SPM"
+            },
+            {
+                "unit_p": "M3",
+                "des": "泥浆池体积（活动）",
+                "name": "slurryPoolVolumeActivity",
+                "unit_e": "BBL"
+            },
+            {
+                "unit_p": "M3",
+                "des": " 泥浆池体积变化（活动）",
+                "name": "slurryPoolVolumeChangeActivity",
+                "unit_e": "BBL"
+            },
+            {
+                "unit_p": "%",
+                "des": "泥浆流量％",
+                "name": "slurryFlowRate",
+                "unit_e": "%"
+            },
+            {
+                "unit_p": "L/M",
+                "des": "出口泥浆流量（平均）",
+                "name": "outletMudFlowRateAvg",
+                "unit_e": "BBL"
+            },
+            {
+                "unit_p": "L/M",
+                "des": "入口泥浆流量（平均）",
+                "name": "inletMudFlowRateAvg",
+                "unit_e": "BBL"
+            },
+            {
+                "unit_p": "KGM3 ",
+                "des": "出口泥浆密度（平均）",
+                "name": "outletMudDensityAvg",
+                "unit_e": "PPG"
+            },
+            {
+                "unit_p": "KGM3 ",
+                "des": "入口泥浆密度（平均）",
+                "name": "inletMudDensityAvg",
+                "unit_e": "PPG"
+            },
+            {
+                "unit_p": "DEGC",
+                "des": "出口泥浆温度（平均）",
+                "name": "outletMudTemperatureAvg",
+                "unit_e": "DEGC"
+            },
+            {
+                "unit_p": "DEGC",
+                "des": "入口泥浆温度（平均）",
+                "name": "inletMudTemperatureAvg",
+                "unit_e": "DEGC"
+            },
+            {
+                "unit_p": "MMHO",
+                "des": "出口泥浆电阻率（平均）",
+                "name": "outletMudResistivityAvg",
+                "unit_e": "MMHO"
+            },
+            {
+                "unit_p": "MMHO ",
+                "des": "入口泥浆电阻率（平均）",
+                "name": "inletMudResistivityAvg",
+                "unit_e": "MMHO "
+            },
+            {
+                "unit_p": "-",
+                "des": "泵冲数（总计）",
+                "name": "pumpImpulseTotal",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "-",
+                "des": " 滞后泵冲 ",
+                "name": "hysteresisPumpImpulse",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "M",
+                "des": "迟到井深（测量） ",
+                "name": "lateWellDepthMeasurement",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "%",
+                "des": " 气（平均） ",
+                "name": "gasAvg",
+                "unit_e": "%"
+            },
+            {
+                "unit_p": "Strokes",
+                "des": "吊钳扭矩",
+                "name": "craneClampTorque",
+                "unit_e": ""
+            },
+            {
+                "unit_p": "Strokes",
+                "des": "累计泵冲次1",
+                "name": "cumulativePumpStrokeOne",
+                "unit_e": ""
+            },
+            {
+                "unit_p": "Strokes",
+                "des": "累计泵冲次2",
+                "name": "cumulativePumpStrokeTwo",
+                "unit_e": ""
+            },
+            {
+                "unit_p": "Strokes",
+                "des": "累计泵冲次3",
+                "name": "cumulativePumpStrokeThree",
+                "unit_e": ""
+            },
+            {
+                "unit_p": "ppm",
+                "des": "硫化氢1",
+                "name": "h2sOne",
+                "unit_e": ""
+            },
+            {
+                "unit_p": "ppm",
+                "des": "硫化氢2",
+                "name": "h2sTwo",
+                "unit_e": ""
+            },
+            {
+                "unit_p": "kN.km",
+                "des": "大绳做功",
+                "name": "ropeWork",
+                "unit_e": ""
+            },
+            {
+                "unit_p": "Min/m",
+                "des": "钻时",
+                "name": "drillingTime",
+                "unit_e": ""
+            },
+            {
+                "unit_p": "hour",
+                "des": "钻头时间",
+                "name": "bitTime",
+                "unit_e": ""
+            },
+            {
+                "unit_p": "hour",
+                "des": "总钻进时间",
+                "name": "sumDrillingTime",
+                "unit_e": ""
+            },
+            {
+                "unit_p": "m/min",
+                "des": "大钩速度",
+                "name": "hookSpeed",
+                "unit_e": ""
+            },
+            {
+                "unit_p": "Strokes",
+                "des": "累计泵冲总和",
+                "name": "cumulativePumpImpulseSum",
+                "unit_e": ""
+            },
+            {
+                "unit_p": "hour",
+                "des": "离开井底时间",
+                "name": "departureTime",
+                "unit_e": ""
+            },
+            {
+                "unit_p": "radix",
+                "des": "单根记数",
+                "name": "singleCounting",
+                "unit_e": ""
+            },
+            {
+                "unit_p": "pole",
+                "des": "立柱记数",
+                "name": "columnCounting",
+                "unit_e": ""
+            },
+            {
+                "unit_p": "m",
+                "des": "钻具总长",
+                "name": "drillingToolLength",
+                "unit_e": ""
+            },
+            {
+                "unit_p": "m",
+                "des": "方限井深",
+                "name": "squareLimitWellDepth",
+                "unit_e": ""
+            },
+            {
+                "unit_p": "m",
+                "des": "钻头进尺",
+                "name": "bitFootage",
+                "unit_e": ""
+            },
+            {
+                "unit_p": "hour",
+                "des": "重载时间",
+                "name": "overloadTime",
+                "unit_e": ""
+            },
+            {
+                "unit_p": "hour",
+                "des": "卡瓦时间",
+                "name": "kawaTime",
+                "unit_e": ""
+            },
+            {
+                "unit_p": "hour",
+                "des": "起下钻时间",
+                "name": "riseDrillingTime",
+                "unit_e": ""
+            },
+            {
+                "unit_p": "hour",
+                "des": "划眼时间",
+                "name": "eyeScratchingTime",
+                "unit_e": ""
+            },
+            {
+                "unit_p": "m",
+                "des": "单根长度",
+                "name": "singleLength",
+                "unit_e": ""
+            },
+            {
+                "unit_p": "10kN",
+                "des": "钻具重量",
+                "name": "drillingToolWeight",
+                "unit_e": ""
+            },
+            {
+                "unit_p": "MPa",
+                "des": "左工作钳压力",
+                "name": "leftWorkingClampPressure",
+                "unit_e": ""
+            },
+            {
+                "unit_p": "MPa",
+                "des": "右工作钳压力",
+                "name": "rightWorkingClampPressure",
+                "unit_e": ""
+            },
+            {
+                "unit_p": "kN.m",
+                "des": "顶驱扭矩",
+                "name": "topDriveTorque",
+                "unit_e": ""
+            },
+            {
+                "unit_p": "rpm",
+                "des": "顶驱转速",
+                "name": "topDriveSpeed",
+                "unit_e": ""
+            },
+            {
+                "unit_p": "Mpa",
+                "des": "安全钳压力",
+                "name": "safetyClampPressure",
+                "unit_e": ""
+            },
+            {
+                "unit_p": "Mpa",
+                "des": "猫头压力",
+                "name": "catheadPressure",
+                "unit_e": ""
+            },
+            {
+                "unit_p": "Mpa",
+                "des": "绞车油压",
+                "name": "winchOilPressure",
+                "unit_e": ""
+            },
+            {
+                "unit_p": "Mpa",
+                "des": "转盘油压",
+                "name": "turntableOilPressure",
+                "unit_e": ""
+            },
+            {
+                "unit_p": "Mpa",
+                "des": "气源压力",
+                "name": "gasSourcePressure",
+                "unit_e": ""
+            },
+            {
+                "unit_p": "Mpa",
+                "des": "盘刹油压",
+                "name": "discBrakeOilPressure",
+                "unit_e": ""
+            },
+            {
+                "unit_p": "℃",
+                "des": "盘刹油温",
+                "name": " discBrakeOilTemperature",
+                "unit_e": ""
+            },
+            {
+                "unit_p": "Mpa",
+                "des": "泵油压1",
+                "name": "pumpOilPressureOne",
+                "unit_e": ""
+            },
+            {
+                "unit_p": "Mpa",
+                "des": "泵油压2",
+                "name": "pumpOilPressureTwo",
+                "unit_e": ""
+            },
+            {
+                "unit_p": "Mpa",
+                "des": "泵油压3",
+                "name": "pumpOilPressureThree",
+                "unit_e": ""
+            },
+            {
+                "unit_p": "ppm",
+                "des": "硫化氢3",
+                "name": "h2sThree",
+                "unit_e": ""
+            },
+            {
+                "unit_p": "Mpa",
+                "des": "可燃气体1",
+                "name": "combustibleGasOne",
+                "unit_e": ""
+            },
+            {
+                "unit_p": "Mpa",
+                "des": "可燃气体2",
+                "name": "combustibleGasTwo",
+                "unit_e": ""
+            },
+            {
+                "unit_p": "Mpa",
+                "des": "可燃气体3",
+                "name": "combustibleGasThree",
+                "unit_e": ""
+            }
+        ],
+        "WitsTwo": [
+            {
+                "unit_p": "M",
+                "des": "井眼深度（测量）",
+                "name": "boreholeDepthMeasurement",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "M",
+                "des": "井眼深度（垂深）",
+                "name": "boreholeDepthVertical",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "M/HR",
+                "des": "机械钻速（平均）",
+                "name": "boreholeRopAvg",
+                "unit_e": "F/HR"
+            },
+            {
+                "unit_p": "KDN",
+                "des": "钻压（地面，平均）",
+                "name": "drillingPressureGroundAvg",
+                "unit_e": "KLB"
+            },
+            {
+                "unit_p": "KDN",
+                "des": "大钩负荷（平均）",
+                "name": "hookLoadAvg",
+                "unit_e": "KLB"
+            },
+            {
+                "unit_p": "KPA",
+                "des": "立管压力（平均） ",
+                "name": "riserPressureAvg",
+                "unit_e": "PSI"
+            },
+            {
+                "unit_p": "KNM",
+                "des": "旋转扭矩（地面，平均）",
+                "name": "turntableTorqueGroundAvg",
+                "unit_e": "KFLB"
+            },
+            {
+                "unit_p": "RPM ",
+                "des": "旋转速度（地面，平均） ",
+                "name": "turntableSpeedGroundAvg",
+                "unit_e": "RPM "
+            },
+            {
+                "unit_p": "-",
+                "des": "钻头转数（总计）",
+                "name": "bitRotationSum",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": " L/M ",
+                "des": "入口泥浆密度（平均） ",
+                "name": "inletMudDensityAvg",
+                "unit_e": "GPM "
+            },
+            {
+                "unit_p": "KGM3 ",
+                "des": "全井深时的有效循环密度（ECD） ",
+                "name": "fullWellCyclicDensity",
+                "unit_e": "PPG "
+            },
+            {
+                "unit_p": "L/M",
+                "des": "入口泥浆流量（平均）",
+                "name": "inletMudFlowRateAvg",
+                "unit_e": "GPM"
+            },
+            {
+                "unit_p": "L/M",
+                "des": "出口泥浆流量（平均）",
+                "name": "outletMudFlowRateAvg",
+                "unit_e": "GPM"
+            },
+            {
+                "unit_p": "%",
+                "des": "出口泥浆流量％ ",
+                "name": "outletMudFlowRateMark",
+                "unit_e": "%"
+            },
+            {
+                "unit_p": "M3 ",
+                "des": "泥浆罐体积（活动）",
+                "name": "slurryPotVActive",
+                "unit_e": "BBL"
+            },
+            {
+                "unit_p": "$/M",
+                "des": "单位进尺成本（绳钻进） ",
+                "name": "companyFootageCostRope",
+                "unit_e": "$/F"
+            },
+            {
+                "unit_p": "$/M",
+                "des": "单位进尺成本（总成本） ",
+                "name": "companyFootageCostSum",
+                "unit_e": "$/F"
+            },
+            {
+                "unit_p": "HR",
+                "des": "钻头钻进时间 ",
+                "name": "bitDrillingDate",
+                "unit_e": "HR"
+            },
+            {
+                "unit_p": "M",
+                "des": " 钻头进尺",
+                "name": "bitFootage",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "-",
+                "des": "DC指数",
+                "name": "dcExponent",
+                "unit_e": "-"
+            }
+        ],
+        "WitsTwentySeven": [
+            {
+                "unit_p": "-",
+                "des": "套管次数",
+                "name": "casingsCount",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "-",
+                "des": "套管名称",
+                "name": "casingsName",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "-",
+                "des": "套管编号",
+                "name": "casingsNum",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "-",
+                "des": "产地",
+                "name": "originPlace",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "-",
+                "des": "钢级",
+                "name": "steelGrade",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "MM",
+                "des": "壁厚",
+                "name": "wallThickness",
+                "unit_e": "IN"
+            },
+            {
+                "unit_p": "MM",
+                "des": "尺寸",
+                "name": "size",
+                "unit_e": "IN"
+            },
+            {
+                "unit_p": "M",
+                "des": "单根长",
+                "name": "singleRootLength",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "M",
+                "des": "累计长度",
+                "name": "addRootLength",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "M",
+                "des": "下深",
+                "name": "lowerDepth",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "-",
+                "des": "套管类型",
+                "name": "casingType",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "-",
+                "des": "备注",
+                "name": "remarks",
+                "unit_e": "-"
+            }
+        ],
+        "WitsTwentyThree": [
+            {
+                "unit_p": "-",
+                "des": " 井名 ",
+                "name": "wellName",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "-",
+                "des": " 井标识号 ",
+                "name": "wellMarkNum",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "-",
+                "des": " 操作者 ",
+                "name": "operator",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "-",
+                "des": "井别分类 ",
+                "name": "wellType",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "-",
+                "des": " 井的位置 ",
+                "name": "wellPosition",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "-",
+                "des": " 井通用横向墨卡托图位置 ",
+                "name": "wellUniversalChartPosition",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "-",
+                "des": " 井地面纬度 ",
+                "name": "wellX",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "-",
+                "des": "井地面经度 ",
+                "name": "wellY",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "-",
+                "des": " 地区名 ",
+                "name": "areaName",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "M",
+                "des": " 高和以平均每平面为基准 ",
+                "name": "eachPlaneBenchmarkAvg",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "M",
+                "des": " 方向海拔高程 ",
+                "name": "directionalElevation",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "M",
+                "des": " 地面海拔高程 ",
+                "name": "groundElevation",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "M",
+                "des": " 水深 ",
+                "name": "waterDept",
+                "unit_e": "F"
+            },
+            {
+                "unit_p": "-",
+                "des": "  开钻日期  ",
+                "name": "drillingDate",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "-",
+                "des": " 用户区标识01",
+                "name": "userIdentityOne",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "-",
+                "des": " 用户区标识02",
+                "name": "userIdentityTwo",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "-",
+                "des": " 用户区标识03",
+                "name": "userIdentityThree",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "-",
+                "des": " 用户区标识04",
+                "name": "userIdentityFour",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "-",
+                "des": " 用户区标识05",
+                "name": "userIdentityFive",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "-",
+                "des": " 用户区标识06",
+                "name": "userIdentitySix",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "-",
+                "des": " 用户区标识07",
+                "name": "userIdentitySeven",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "-",
+                "des": " 用户区标识08",
+                "name": "userIdentityEight",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "-",
+                "des": " 用户区标识09",
+                "name": "userIdentityNine",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "-",
+                "des": " 用户区标识10",
+                "name": "userIdentityTen",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "-",
+                "des": "使用单位类型 ",
+                "name": "unitType",
+                "unit_e": "-"
+            },
+            {
+                "unit_p": "-",
+                "des": " 时区补偿 ",
+                "name": "timeZoneCompen",
+                "unit_e": "-"
+            }
+        ],
+        "WitsFive": [
+            {
+                "unit_p": "KDN",
+                "des": " 大钩负荷（平均）",
+                "name": "hookLoadAvg",
+                "unit_e": "KLB"
+            }
+        ]
+    }
+}

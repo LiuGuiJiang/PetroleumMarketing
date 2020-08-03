@@ -1,0 +1,138 @@
+{
+    "status":"200",
+    "name":"四",
+    "result":{
+        "witsFour": {
+            "boreholeDepthVertical": {
+                "unit1": "M",
+                "chName": "井眼深度（垂深）",
+                "unit2": "F"
+            },
+            "bitDepthMeasurement":{
+                "unit1": "M",
+                "chName": "钻头深度（测量）",
+                "unit2": "F"
+            },
+            "bitDepthVertical":{
+                "unit1": "M",
+                "chName": "钻头深度（垂深）",
+                "unit2": "F"
+            },
+            "inletMudDensityAvg":{
+                "unit1": " L/M ",
+                "chName": "入口泥浆密度（平均） ",
+                "unit2": "GPM "
+            },
+            "inletMudFlowRateAvg":{
+                "unit1": "L/M",
+                "chName": "入口泥浆流量（平均）",
+                "unit2": "GPM"
+            },
+            "riserPressureAvg":{
+                "unit1": "KPA",
+                "chName": "立管压力（平均） ",
+                "unit2": "PSI"
+            },
+            "plasticViscosity":{
+                "unit1": "CP",
+                "chName": " 塑性粘度 ",
+                "unit2": "CP"
+            },
+            "yieldPoint":{
+                "unit1": "PA",
+                "chName": " 屈服点 ",
+                "unit2": "PA"
+            },
+            "bitPressureLoss":{
+                "unit1": "KPA",
+                "chName": "钻头压力损失",
+                "unit2": "PSI"
+            },
+            "drillStringPressureLoss":{
+                "unit1": "KPA",
+                "chName": "钻柱压力损失",
+                "unit2": "PSI"
+            },
+            "annulusPressureLoss":{
+                "unit1": "KPA",
+                "chName": "环空压力损失",
+                "unit2": "PSI"
+            },
+            "groundPressureLoss":{
+                "unit1": "KPA",
+                "chName": "地面压力损失",
+                "unit2": "PSI"
+            },
+            "mudMotorPressureLoss":{
+                "unit1": "KPA",
+                "chName": "泥浆马达压力损失",
+                "unit2": "PSI"
+            },
+            "measureInstrumentPressureLoss":{
+                "unit1": "KPA",
+                "chName": "随钻测量仪压力损失",
+                "unit2": "PSI"
+            },
+            "bitPressureLossPercentage":{
+                "unit1": "%",
+                "chName": "钻头压力损失百分比",
+                "unit2": "%"
+            },
+            "bitHhp":{
+                "unit1": "KW",
+                "chName": "钻头水马力",
+                "unit2": "HP"
+            },
+            "bitUnitAreaHhp":{
+                "unit1": "KWM2",
+                "chName": "钻头单位面积水马力",
+                "unit2": "HSI"
+            },
+            "jetImpactForce":{
+                "unit1": "KDN ",
+                "chName": "喷射冲击力 ",
+                "unit2": "LB"
+            },
+            "injectionVelocity":{
+                "unit1": "M/S",
+                "chName": "喷射速度 ",
+                "unit2": " FPS "
+            },
+            "annularVelocityMin":{
+                "unit1": "M/S",
+                "chName": "环空流速（最小）",
+                "unit2": " FPM"
+            },
+            "annularVelocityMax":{
+                "unit1": "M/S",
+                "chName": "环空流速（最大）",
+                "unit2": " FPM"
+            },
+            "fullWellDepthLoopDensity":{
+                "unit1": "KGM3",
+                "chName": "全井深时有效循环密度（ECD）",
+                "unit2": "PPG"
+            },
+            "bitLoopDensity":{
+                "unit1": "KGM3",
+                "chName": "钻头处有效循环密度",
+                "unit2": "PPG"
+            },
+            "casingShoesLoopDensity":{
+                "unit1": "KGM3",
+                "chName": "套管鞋处有效循环密度 ",
+                "unit2": "PPG"
+            },
+            "pumpingHorsepower":{
+                "unit1": "KW",
+                "chName": "泵水马力",
+                "unit2": "HP"
+            },
+            "pressureLossRatio":{
+                "unit1": "%",
+                "chName": " 计算／观察的压力损失比率 ",
+                "unit2": "%"
+            }
+        }
+    }
+}

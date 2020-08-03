@@ -1,0 +1,188 @@
+{
+    "status":"200",
+    "name":"十三",
+    "result":{
+        "witsThirteen": {
+            "returnWellDepthMeasurement":{
+                "unit1": "M",
+                "chName": "返出井深（迟到井深）测深",
+                "unit2": "F"
+            },
+            "returnWellDepthVertical":{
+                "unit1": "M",
+                "chName": "迟到井深（垂深）",
+                "unit2": "F"
+            },
+            "ch4Avg":{
+                "unit1": "PPM ",
+                "chName": " 甲烷（C1 平均） ",
+                "unit2": "PPM "
+            },
+            "ch4Min":{
+                "unit1": "PPM ",
+                "chName": "甲烷（C1最小） ",
+                "unit2": "PPM "
+            },
+            "ch4Max":{
+                "unit1": "PPM ",
+                "chName": " 甲烷（C1最大） ",
+                "unit2": "PPM "
+            },
+            "c2c6Avg":{
+                "unit1": "PPM ",
+                "chName": " 乙烷（C2 平均） ",
+                "unit2": "PPM "
+            },
+            "c2c6Min":{
+                "unit1": "PPM ",
+                "chName": "乙烷（C2最小） ",
+                "unit2": "PPM "
+            },
+            "c2c6Max":{
+                "unit1": "PPM ",
+                "chName": "乙烷（C2最大） ",
+                "unit2": "PPM "
+            },
+            "c3h8Avg":{
+                "unit1": "PPM ",
+                "chName": "丙烷（C3平均）",
+                "unit2": "PPM "
+            },
+            "c3h8Min":{
+                "unit1": "PPM ",
+                "chName": "丙烷（C3最小）",
+                "unit2": "PPM "
+            },
+            "c3h8Max":{
+                "unit1": "PPM ",
+                "chName": "丙烷（C3最大）",
+                "unit2": "PPM "
+            },
+            "c4h10DiffAvg":{
+                "unit1": "PPM ",
+                "chName": "异丁烷（IC4平均） ",
+                "unit2": "PPM "
+            },
+            "c4h10DiffMin":{
+                "unit1": "PPM ",
+                "chName": "异丁烷（IC4最小）",
+                "unit2": "PPM "
+            },
+            "c4h10DiffMax":{
+                "unit1": "PPM ",
+                "chName": "异丁烷（IC4最大）",
+                "unit2": "PPM "
+            },
+            "c4h10Avg":{
+                "unit1": "PPM ",
+                "chName": "正丁烷（NC4平均）",
+                "unit2": "PPM "
+            },
+            "c4h10Min":{
+                "unit1": "PPM ",
+                "chName": "正丁烷（NC4最小）",
+                "unit2": "PPM "
+            },
+            "c4h10Max":{
+                "unit1": "PPM ",
+                "chName": "正丁烷（NC4最大）",
+                "unit2": "PPM "
+            },
+            "c5h12DiffAvg":{
+                "unit1": "PPM ",
+                "chName": "异戊烷（IC5平均）",
+                "unit2": "PPM "
+            },
+            "c5h12DiffMin":{
+                "unit1": "PPM ",
+                "chName": "异戊烷（IC5最小）",
+                "unit2": "PPM "
+            },
+            "c5h12DiffMax":{
+                "unit1": "PPM ",
+                "chName": "异戊烷（IC5最大）",
+                "unit2": "PPM "
+            },
+            "c5h12Avg":{
+                "unit1": "PPM ",
+                "chName": "正戊烷（NC5平均）",
+                "unit2": "PPM "
+            },
+            "c5h12Min":{
+                "unit1": "PPM ",
+                "chName": "正戊烷（NC5最小）",
+                "unit2": "PPM "
+            },
+            "c5h12Max":{
+                "unit1": "PPM ",
+                "chName": "正戊烷（NC5最大）",
+                "unit2": "PPM "
+            },
+            "c5h12NewAvg":{
+                "unit1": "PPM ",
+                "chName": "新戊烷（EC5平均）",
+                "unit2": "PPM "
+            },
+            "c5h12NewMin":{
+                "unit1": "PPM ",
+                "chName": "新戊烷（EC5最小）",
+                "unit2": "PPM "
+            },
+            "c5h12NewMax":{
+                "unit1": "PPM ",
+                "chName": "新戊烷（EC5最大）",
+                "unit2": "PPM "
+            },
+            "c6h14DiffAvg":{
+                "unit1": "PPM ",
+                "chName": "异己烷（IC6 平均）",
+                "unit2": "PPM "
+            },
+            "c6h14DiffMin":{
+                "unit1": "PPM ",
+                "chName": "异己烷（IC6最小） ",
+                "unit2": "PPM "
+            },
+            "c6h14DiffMax":{
+                "unit1": "PPM ",
+                "chName": "异己烷（IC6最大）",
+                "unit2": "PPM "
+            },
+            "c6h14Avg":{
+                "unit1": "PPM ",
+                "chName": "正己烷（NC6 平均）",
+                "unit2": "PPM "
+            },
+            "c6h14Min":{
+                "unit1": "PPM ",
+                "chName": "正己烷（NC6最小） ",
+                "unit2": "PPM "
+            },
+            "c6h14Max":{
+                "unit1": "PPM ",
+                "chName": "正己烷（NC6最大）",
+                "unit2": "PPM "
+            },
+            "co2Avg":{
+                "unit1": "PPM ",
+                "chName": " 二氧化碳（CO2 平均）",
+                "unit2": "PPM"
+            },
+            "co2Min":{
+                "unit1": "PPM ",
+                "chName": "二氧化碳（CO2最小）",
+                "unit2": "PPM "
+            },
+            "co2Max":{
+                "unit1": "PPM ",
+                "chName": " 二氧化碳（CO2最大）",
+                "unit2": "PPM "
+            },
+            "c2h2":{
+                "unit1": "PPM ",
+                "chName": "乙炔",
+                "unit2": "PPM "
+            }
+        }
+    }
+}

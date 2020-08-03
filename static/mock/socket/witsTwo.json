@@ -1,0 +1,108 @@
+{
+    "status":"200",
+    "name":"二",
+    "result":{
+        "witsTwo":{
+            "bitDrillingDate": {
+                "id":"1",
+                "unit": "HR",         
+                "chName": "钻头钻进时间 "
+            },
+            "bitFootage": {
+                "id":"2",
+                "unit": "M",           
+                "chName": " 钻头进尺"
+            },
+            "bitRotationSum": {
+                "id":"3",
+                "unit": "-",        
+                "chName": "钻头转数（总计）"
+            },
+            "boreholeDepthMeasurement": {
+                "id":"4",
+                "unit": "M",            
+                "chName": "井眼深度（测量）"
+            },
+            "boreholeDepthVertical": {
+                "id":"5",
+                "unit": "M",              
+                "chName": "井眼深度（垂深）"
+            },
+            "boreholeRopAvg": {
+                "id":"6",
+                "unit": "M/HR",  
+                "chName": "机械钻速（平均）"
+            },
+            "companyFootageCostRope": {
+                "id":"7",
+                "unit": "$/M",
+                "chName": "单位进尺成本（绳钻进） "
+            },
+            "companyFootageCostSum": {
+                "id":"8",
+                "unit": "$/M",
+                "chName": "单位进尺成本（总成本） "
+            },
+            "dcExponent": {
+                "id":"9",
+                "unit": "-",        
+                "chName": "DC指数"
+            },
+            "drillingPressureGroundAvg": {
+                "id":"10",
+                "unit": "KDN",
+                "chName": "钻压（地面，平均）"
+            },
+            "fullWellCyclicDensity": {
+                "id":"11",
+                "unit": "KGM3",  
+                "chName": "全井深时的有效循环密度（ECD）"
+            },
+            "hookLoadAvg": {
+                "id":"12",
+                "unit": "KDN",
+                "chName": "大钩负荷（平均）"
+            },
+            "inletMudDensityAvg": {
+                "id":"13",
+                "unit": " L/M",  
+                "chName": "入口泥浆密度（平均） "
+            },
+            "inletMudFlowRateAvg": {
+                "id":"14",
+                "unit": "L/M",
+                "chName": "入口泥浆流量（平均）"
+            },
+            "outletMudFlowRateAvg": {
+                "id":"15",
+                "unit": "L/M",
+                "chName": "出口泥浆流量（平均）"
+            },
+            "outletMudFlowRateMark": {
+                "id":"16",
+                "unit": "%",         
+                "chName": "出口泥浆流量％ "
+            },
+            "riserPressureAvg": {
+                "id":"17",
+                "unit": "KPA",
+                "chName": "立管压力（平均） "
+            },
+            "slurryPotVActive": {
+                "id":"18",
+                "unit": "M3 ",
+                "chName": "泥浆罐体积（活动）"
+            },
+            "turntableSpeedGroundAvg": {
+                "id":"19",
+                "unit": "RPM ", 
+                "chName": "旋转速度（地面，平均） "
+            },
+            "turntableTorqueGroundAvg": {
+                "id":"20",
+                "unit": "KNM", 
+                "chName": "旋转扭矩（地面，平均）"
+            }
+        }
+    }
+}

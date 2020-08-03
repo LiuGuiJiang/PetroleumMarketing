@@ -1,0 +1,94 @@
+{
+    "status":"200",
+    "name":"十四",
+    "result":{
+        "witsFourteen": {
+            "lateWellDepthMeasurement":{
+                "unit1": "M",
+                "chName": "返出井深（迟到井深）测深",
+                "unit2": "F"
+            },
+            "lateWellDepthVertical":{
+                "unit1": "M",
+                "chName": "迟到井深（垂深）",
+                "unit2": "F"
+            },
+            "inletMudDensityReturn":{
+                "unit1": "KGM3 ",
+                "chName": " 入口泥浆密度（返到） ",
+                "unit2": "PPG"
+            },
+            "outletMudDensityAvg":{
+                "unit1": "KGM3 ",
+                "chName": "出口泥浆密度（平均）",
+                "unit2": "PPG"
+            },
+            "inletMudTemperatureLate":{
+                "unit1": "DEGC  ",
+                "chName": "入口泥浆温度（迟到） ",
+                "unit2": "DEGF "
+            },
+            "outletMudTemperatureAvg":{
+                "unit1": "DEGC ",
+                "chName": "出口泥浆温度（平均） ",
+                "unit2": "DEGC"
+            },
+            "inletMudConductivityLate":{
+                "unit1": "OHMM  ",
+                "chName": " 入口泥浆电导率（迟到）",
+                "unit2": "OHMM"
+            },
+            "outletMudConductivityAvg":{
+                "unit1": "OHMM  ",
+                "chName": "  出口泥浆电导率（平均） ",
+                "unit2": "OHMM"
+            },
+            "h2sHazardAvg":{
+                "unit1": "PPM   ",
+                "chName": " 硫化氢危害指数（平均） ",
+                "unit2": "PPM"
+            },
+            "h2sPhAvg":{
+                "unit1": "-",
+                "chName": "  硫化氢ｐH 值（平均）  ",
+                "unit2": "-"
+            },
+            "h2sPhsAvg":{
+                "unit1": "%",
+                "chName": " 硫化氢ｐHS 值（平均） ",
+                "unit2": "%"
+            },
+            "inletNaturalGasLate":{
+                "unit1": "%",
+                "chName": " 入口天然气含量（迟到） ",
+                "unit2": "%"
+            },
+            "naturalGasAvg":{
+                "unit1": "%",
+                "chName": " 天然气含量（平均） ",
+                "unit2": "%"
+            },
+            "naturalGasMax":{
+                "unit1": "%",
+                "chName": " 天然气含量（最大） ",
+                "unit2": "%"
+            },
+            "co2Avg":{
+                "unit1": "PPM",
+                "chName": "二氧化碳（平均） ",
+                "unit2": "PPM"
+            },
+            "h2sAvg":{
+                "unit1": "PPM",
+                "chName": " 硫化氢（平均） ",
+                "unit2": "PPM"
+            },
+            "h2sMax":{
+                "unit1": "PPM",
+                "chName": " 硫化氢（最大） ",
+                "unit2": "PPM"
+            }
+        }
+        
+    }
+}

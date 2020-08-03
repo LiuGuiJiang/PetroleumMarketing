@@ -1,0 +1,9 @@
+ /*引用LED字体*/
+ @font-face {
+    font-family: 'ledf';
+    src: url('../display-free-tfb/djb-get-digital.eot'); /* IE9 Compat Modes */
+    src: url('../display-free-tfb/djb-get-digital.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+             url('../display-free-tfb/djb-get-digital.woff') format('woff'), /* Modern Browsers */
+             url('../display-free-tfb/djb-get-digital.ttf')  format('truetype'), /* Safari, Android, iOS */
+             url('../display-free-tfb/djb-get-digital.svg#ledf') format('svg'); /* Legacy iOS */
+    }

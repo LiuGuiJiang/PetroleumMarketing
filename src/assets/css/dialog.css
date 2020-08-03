@@ -1,0 +1,57 @@
+/*弹出框的公共样式修改*/
+.dialog .el-dialog {
+    min-width: 320px;
+    max-width: 900px;
+    /* max-height: 80%; */
+    border-radius: 3px;
+    padding: 1px;
+}
+.dialog .el-dialog__body {
+    max-height: 600px;
+    overflow: auto;
+}
+@media screen and (max-width:768px) {
+    .dialog .el-dialog__body {
+        max-height: 400px;
+    } 
+}
+.dialog .el-dialog__header {
+    padding: 0 10px;
+    background-color: #fafafa;
+}
+.dialog .el-dialog__title {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 40px;
+    font-family: '微软雅黑';
+}
+.dialog .el-dialog__headerbtn {
+     top: 12px;
+     right: 12px;
+}
+.dialog .el-dialog__body,.dialog .el-dialog--center .el-dialog__body{
+    padding: 15px 20px 0px;
+}
+.dialog .el-radio {
+    color: #000;
+}
+.dialog .el-dialog__footer {
+    background-color: #fafafa;
+    padding-bottom: 10px; 
+}
+
+.dialog .el-select {
+    display: block;
+}
+
+
+/*查看详情*/
+.dialog .details{
+    margin-bottom: 15px;
+}
+.dialog div.details>p {
+    border-bottom: 1px solid rgb(143, 141, 141);
+    margin: 5px 0;
+    padding: 3px;
+    color: rgb(143, 140, 140);
+}
