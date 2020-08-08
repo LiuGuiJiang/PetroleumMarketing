@@ -29,6 +29,12 @@ export const constantRoutes = [
     hidden: true
   },
   {
+    path: '/gis/scada',
+    name: 'scada',
+    component: () => import('@/containers/scada/index.vue'),
+    hidden: true
+  },
+  {
     path: '/',
     component: Home,
     name: 'home',

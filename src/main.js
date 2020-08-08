@@ -48,11 +48,10 @@ import './assets/css/dialog.css'
 import GlobalFunc from '@/utils/globalFunc.js'
 //9.2 全局变量
 import GlobalVar from '@/utils/globalVar.js'
-//9.3公共组件封装
-import onlyButton from '@/components/Button/index'
-import onlyTable from '@/components/Table/index'
-import onlyPaging from '@/components/Paging/index'
-import onlyFunctionMenu from '@/components/FunctionMenu/index'
+//9.3公共组件封装s
+import JTable from '@/components/Table/index'
+import JPaging from '@/components/Paging/index'
+import JFunctionMenu from '@/components/FunctionMenu/index'
 //9.4 引入Dialog可拖拽及改变宽度
 import './assets/js/directives.js';
 
@@ -60,6 +59,9 @@ import i18n from '@/i18n/i18n'
 
 //10. WebSocket封装方法
 import * as socketApi from '@/api/socket'
+
+// dataV
+import dataV from '@jiaminghi/data-view'
 
 Vue.config.productionTip = false
 Vue.prototype.$echarts = echarts
@@ -82,12 +84,12 @@ Vue.use(BaiduMap, {
 //   plugin:['AMap.Autocomplete', 'AMap.PlaceSearch', 'AMap.Scale', 'AMap.OverView', 'AMap.ToolBar', 'AMap.MapType', 'AMap.PolyEditor', 'AMap.CircleEditor'],
 //   v: '1.4.4'
 // })
+Vue.use(dataV)
 
 //20.0封装的全局公共组件
-Vue.component('onlyButton',onlyButton)
-Vue.component('onlyTable',onlyTable)
-Vue.component('onlyPaging',onlyPaging)
-Vue.component('onlyFunctionMenu',onlyFunctionMenu)
+Vue.component('JTable',JTable)
+Vue.component('JPaging',JPaging)
+Vue.component('JFunctionMenu',JFunctionMenu)
 
 /* eslint-disable no-new */
 new Vue({
