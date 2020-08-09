@@ -11,7 +11,7 @@
                         <el-main style="height: 90%; padding:0px;">
                             <el-row style="height: 100%;">
 
-                                <el-col :span="5" style="height: 100%;">
+                                <el-col :span="6" style="height: 100%;">
                                     <el-row style="height: 100%;">
                                         <el-col :span="24" style="height:50%;padding:5px;">
                                             <LeftTop></LeftTop>
@@ -24,20 +24,20 @@
                                     </el-row>
                                 </el-col>
 
-                                <el-col :span="14" style="height: 100%;">
+                                <el-col :span="12" style="height: 100%;">
                                     <el-row style="height: 100%;">
-                                        <el-col :span="24" style="height:60%;padding:5px;">
+                                        <el-col :span="24" style="height:70%;padding:5px;">
                                             <CenterTop></CenterTop>
                                             <!-- <CenterTop :style="'height: 100%;padding: 5px;background: url(' + require('@/assets/images/border-bg.png') + ') no-repeat center;background-size: 100% 100%;'"></CenterTop> -->
                                         </el-col>
-                                        <el-col :span="24" style="height:40%;padding:5px;">
+                                        <el-col :span="24" style="height:30%;padding:5px;">
                                             <CenterBottom></CenterBottom>
                                             <!-- <CenterBottom :style="'height: 100%;padding: 5px;background: url(' + require('@/assets/images/border-bg.png') + ') no-repeat center;background-size: 100% 100%;'"></CenterBottom> -->
                                         </el-col>
                                     </el-row>
                                 </el-col>
 
-                                <el-col :span="5" style="height: 100%;">
+                                <el-col :span="6" style="height: 100%;">
                                     <el-row style="height: 100%;">
                                         <el-col :span="24" style="height:50%;padding:5px;">
                                             <RightTop></RightTop>
