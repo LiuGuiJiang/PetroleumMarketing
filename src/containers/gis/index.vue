@@ -35,7 +35,8 @@
         </el-button-group>
       </div>
       <div class="j-gis-right-main">
-        <my-baidu v-if="styleType === 'BD'" ref="MyMap"></my-baidu>
+        <!-- <my-baidu v-if="styleType === 'BD'" ref="MyMap"></my-baidu> -->
+        <three-di-tu v-if="styleType === 'BD'" ref="MyMap"></three-di-tu>
         <!-- <gaode-map v-if="styleType === '2D'" ref="GaodeMap"></gaode-map> -->
         <chong-qing-shi v-else-if="styleType === '2D'"></chong-qing-shi>
         <three-map v-else-if="styleType === '3D'"></three-map>
@@ -49,12 +50,14 @@ import {mapState} from 'vuex'
 import MyBaidu from './components/MyBaidu'
 import ChongQingShi from './components/ChongQingShi'
 import ThreeMap from './components/ThreeMap'
+import ThreeDiTu from './components/ThreeDiTu'
 
 export default {
   components: {
     MyBaidu,
     ChongQingShi,
-    ThreeMap
+    ThreeMap,
+    ThreeDiTu
   },
   data () {
     return {
